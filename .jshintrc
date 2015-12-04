@@ -1,0 +1,7 @@
+{
+  "undef": true,
+  "unused": true,
+  "noarg": true,
+  "curly": true,
+  "camelcase": true
+}
