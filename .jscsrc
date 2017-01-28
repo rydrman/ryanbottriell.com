@@ -1,7 +1,0 @@
-{
-  "preset" : "google",
-  "disallowMultipleVarDecl": false,
-  "requireSpacesInsideBrackets": true,
-  "disallowSpacesInsideParentheses": false,
-  "disallowSpacesInsideArrayBrackets": false
-}
