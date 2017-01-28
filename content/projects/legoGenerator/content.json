@@ -1,0 +1,7 @@
+{
+    "type" : "image",
+    "src" : "projects/legoGenerator/proj-image.png",
+	"popup" : "false",
+    "popup-type" : "code",
+    "popup-files" : ["projects/legoGenerator/LEGO-Generator.py"]
+}

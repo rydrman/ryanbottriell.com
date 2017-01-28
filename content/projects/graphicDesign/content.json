@@ -1,0 +1,8 @@
+{
+    "type" : "image",
+    "src" : "projects/graphicDesign/proj-image.png",
+	"popup" : "true",
+    "popup-type" : "gallery",
+    "popup-folders" : ["projects/graphicDesign/athletics/",
+					   "projects/graphicDesign/rrra/"]
+}

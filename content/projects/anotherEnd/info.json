@@ -1,0 +1,10 @@
+{
+    "title": "anotherEnd",
+    "niceTitle": "Another End",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "content\/projects\/anotherEnd\/",
+    "description": "Procedurally-generated story-driven adventure game for the web browser",
+    "contentFile": "index.html",
+    "tags": ["game design", "web development", "3D graphics", "game development"]
+}

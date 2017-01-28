@@ -1,0 +1,10 @@
+{
+    "title": "community",
+    "niceTitle": "Community",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "content\/projects\/community\/",
+    "description": "Interactive article about an intentional community. Collaboration with the Carleton University School of Journalism.",
+    "contentFile": "index.html",
+    "tags": ["graphic & web design", "web development"]
+}

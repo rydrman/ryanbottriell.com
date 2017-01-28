@@ -1,0 +1,9 @@
+{
+    "title": "infinite2D",
+    "niceTitle": "infinite2D",
+    "image": null,
+    "color": "#0091c6",
+    "base": "prototypes\/infinite2D\/",
+    "description": "",
+    "contentFile": "index.html"
+}

@@ -1,0 +1,9 @@
+{
+    "title": "liftoff",
+    "niceTitle": "Liftoff",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "prototypes\/liftoff\/",
+    "description": "",
+    "contentFile": "index.html"
+}

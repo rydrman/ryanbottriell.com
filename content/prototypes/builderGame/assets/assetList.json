@@ -1,0 +1,8 @@
+{
+    "images" : {
+        "structure" : "structure.png",
+        "thumbs" : "thumbs.png",
+        "objects" : "objects.png",
+        "materials" : "materials.png"
+    }
+}

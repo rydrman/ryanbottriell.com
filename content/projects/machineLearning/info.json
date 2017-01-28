@@ -1,0 +1,12 @@
+{
+    "title": "machineLearning",
+    "niceTitle": "machineLearning",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "content\/projects\/machineLearning\/",
+    "description": "A simple game with a learning AI companion that I built in HTML5 / JavaScript.",
+    "contentFile": "index.html",
+    "tags": [
+		"game development", "other development", "web development", "game design"
+    ]
+}

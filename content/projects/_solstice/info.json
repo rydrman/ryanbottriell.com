@@ -1,0 +1,10 @@
+{
+    "title": "solstice",
+    "niceTitle": "Solstice Game",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "content\/projects\/solstice\/",
+    "description": "A fun little game made in Flash and Actionscript for Global Game Jam 2012 over the course of 48 hours.",
+    "contentFile": "index.html",
+    "tags": [ "game design", "game development"]
+}

@@ -1,0 +1,7 @@
+{
+    "type" : "image",
+    "src" : "projects/builderGame/proj-image.png",
+	"popup" : "true",
+    "popup-type" : "iframe",
+    "popup-url" : "http://www.ryanbottriell.com/game/"
+}

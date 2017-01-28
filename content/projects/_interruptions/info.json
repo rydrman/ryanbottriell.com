@@ -1,0 +1,10 @@
+{
+    "title": "interruptions",
+    "niceTitle": "Interruptions",
+    "image": "image.png",
+    "color": "#002c3c",
+    "base": "content\/projects\/interruptions\/",
+    "description": "3d animated short about a man's struggle to end his life.",
+    "contentFile": "index.html",
+    "tags": ["3D graphics", "modelling & animation"]
+}

@@ -1,0 +1,14 @@
+{
+    "empty" : {
+        "spritesheet" : "materials",
+        "sprite" : 0
+    },
+    "unbuiltFoundation" : {
+        "spritesheet" : "structure",
+        "sprite" : 6
+    },
+    "concrete" : {
+        "spritesheet" : "materials",
+        "sprite" : 1
+    }
+}

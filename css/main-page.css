@@ -1,0 +1,93 @@
+#title-block{
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    position:relative;
+    
+    top: -10px;
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s;
+    
+    margin-top:75px;
+}
+
+#img-me{
+    float:left;
+    width: 250px;
+}
+
+#text-floater{
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 310px);
+    padding: 10px 30px 0px 30px;
+}
+
+#main-greeting{
+    font: 35px "source-sans-pro";
+    font-weight: 300;
+    border-bottom: 1px solid #DDD;
+    color: #00a1bc;
+    padding-bottom: 10px;
+}
+
+#main-purpose{
+    font: 25px "source-sans-pro";
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+#text-floater-contact{
+    display: inline-block;
+    width: calc(100% - 60px);
+    padding: 10px 30px 0px 30px;
+}
+
+.contact-wrapper{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.contact-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    transition: background 0.5s;
+    border-radius: 25px;
+}
+.contact-link:hover{
+    background-color: rgba(95, 200, 232, 0.1);
+}
+
+#contact-email{
+    background-image: url(../content/images/contact-email.png);
+}
+
+#contact-linkedin{
+    background-image: url(../content/images/contact-linkedin.png);
+}
+
+#contact-phone{
+    background-image: url(../content/images/contact-phone.png);
+}
+
+#contact-github{
+    background-image: url(../content/images/contact-github.png);
+}
+
+#project-button{
+    width: 100px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    
+    top: -10px;
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s;
+}

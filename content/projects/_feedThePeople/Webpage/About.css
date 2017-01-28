@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	margin:auto;
+	width:1000px;
+}
+
+#AboutSection{
+	background-image:url(AboutBack.png);
+	width: 1000px;
+	height: 1200px;
+	padding-top:5px;
+	
+	
+}
+
+#AboutTitle{
+	
+}
+
+#AboutText1{
+	padding-top: 95px;
+	padding-left: 200px;
+	padding-right:20px;
+	font-size: 18px;
+	
+}
+
+#AboutText2{
+	padding-top: 10px;
+	padding-left: 200px;
+	padding-right:20px;
+	font-size: 18px;
+}
+
+#Aboutimg1{
+	width:300px;
+	padding-left: 400px;
+}
+p{
+	text-align:left;
+}
+
+#table{
+	width:1000px;
+	margin:auto;	
+}
+
+#navbar{
+	width:1000px;
+	margin:auto;
+	border:none;	
+}
+
+#main{
+	width:800px;
+	margin:auto;	
+}
+
+#footer{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10pt;
+	text-align:center;
+	font-style:italic;
+	background-color:#C7E9F2;	
+	width:1000px;
+}
+
+body{
+	background-image:url(beige.jpg);	
+}
+
+.links{
+	float:left;	
+}
+
+#home{
+	width:204px;
+	height:80px;
+	display:block;
+	background-image:url(home_reg.jpg);
+}
+
+#about{
+	width:199px;
+	height:80px;
+	display:block;
+	background-image:url(about_reg.jpg);
+}
+
+#about:hover{
+	background:url(about_hover.jpg);	
+}
+
+#charity{
+	width:199px;
+	height:80px;
+	display:block;
+	background-image:url(charity_reg.jpg);	
+}
+
+#charity:hover{
+	background-image:url(charity_hover.jpg);
+}
+
+#scores{
+	width:199px;
+	height:80px;
+	display:block;
+	background-image:url(score_reg.jpg);
+}
+
+#scores:hover{
+	background-image:url(score_hover.jpg);	
+}
+
+#download{
+	width:199px;
+	height:80px;
+	display:block;
+	background-image:url(download_reg.jpg);	
+}
+
+#download:hover{
+	background-image:url(download_hover.jpg);	
+}
+
+#black{
+	width:1000px;
+	height:5px;
+	background-color:#000;
+}
+
+#homepage{
+	background-color:#f4ec97;	
+}
+
+#homepage-charity{
+	background-image:url(charityback.png);	
+}
+
+#homepage-about{
+	background-image:url(AboutBack.png);	
+}
+
+#homepage-scores{
+	background-image:url(ScoresBack.png);
+}
+
+#homepage-download{
+	background-image:url(DownloadBack.png);	
+}

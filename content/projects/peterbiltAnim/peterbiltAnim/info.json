@@ -1,0 +1,9 @@
+{
+    "title": "peterbiltAnim",
+    "niceTitle": "Peterbuilt Animation",
+    "image": "image.png",
+    "color": "#002c3c",
+    "base": "projects\/peterbiltAnim\/",
+    "description": "Simple 3D animation of a Peterbuilt truck model that I made.",
+    "contentFile": "index.html"
+}

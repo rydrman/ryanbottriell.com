@@ -1,0 +1,23 @@
+{
+    "wall" : {
+        "name" : "wall",
+        "static": false,
+        "size": {"x": 1, "y": 1},
+        "hpMax" : 50,
+        
+        "spritesheet": "structure",
+        "sprite": 0,
+        "spriteOffsets": [0]
+    },
+    "door" : {
+        "name" : "door",
+        "static": false,
+        "size": {"x": 2, "y": 1},
+        "hpMax" : 100,
+        "required" : [null, null, null, null, "wall", "wall", null, null, null, null],
+        
+        "spritesheet": "objects",
+        "sprite": 0,
+        "spriteOffsets": [0, 1]
+    }
+}

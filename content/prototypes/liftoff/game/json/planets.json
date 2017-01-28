@@ -1,0 +1,37 @@
+[
+    {
+        "type" : "grassy",
+        "color" : "#42ae26",
+        "probability" : 1
+    },
+
+    {
+        "type" : "desert",
+        "color" : "#fed975",
+        "probability" : 1
+    },
+
+    {
+        "type" : "rocky",
+        "color" : "#6d6f6f",
+        "probability" : 1
+    },
+
+    {
+        "type" : "swamp",
+        "color" : "#48502e",
+        "probability" : 1
+    },
+
+    {
+        "type" : "volcanic",
+        "color" : "#ea0000",
+        "probability" : 1
+    },
+
+    {
+        "type" : "cow",
+        "color" : "#9420d1",
+        "probability" : 1
+    }
+]

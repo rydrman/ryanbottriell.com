@@ -1,0 +1,52 @@
+.content-frame{
+    margin:auto;
+    border:none;
+    width: 700px;
+    text-align: center;
+    font: 17px "source-sans-pro";
+    font-weight: 300;
+}
+
+.content-frame h1{
+    font-weight: 300;
+    font-size: 35px;
+    color: #00a1bc;
+}
+
+.content-frame p{
+    max-width: 600px;
+    text-align: justify;
+    margin: auto;
+}
+
+.content-frame img{
+    margin:auto;
+    display: block;
+}
+
+.content-frame iframe{
+    width: 100%;
+    height: auto;
+    border: none;
+    background-color: #444;
+}
+
+.content-frame a{
+    color: #6ab2be;
+}
+
+.content-frame .gallery{
+    margin: auto;
+}
+
+.content-frame .gallery img{
+    padding: 0px 10px 10px 0px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.content-frame hr{
+    border: 1px solid #DDD;
+    color: #DDD;
+    background-color: #DDD;
+}

@@ -1,0 +1,10 @@
+{
+    "title": "feedThePeople",
+    "niceTitle": "Feed The People",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "content\/projects\/feedThePeople\/",
+    "description": "Physics-based game built in XNA for the Windows Phone 7 platform",
+    "contentFile": "index.html",
+    "tags": ["game design", "game development"]
+}

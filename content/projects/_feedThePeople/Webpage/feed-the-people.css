@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+#table{
+	width:1000px;
+	margin:auto;	
+}
+
+#navbar{
+	width:1000px;
+	margin:auto;	
+}
+
+#main{
+	width:800px;
+	margin:auto;	
+}
+
+#footer{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10pt;
+	text-align:center;
+	font-style:italic;
+	background-color:#C7E9F2;	
+}
+
+body{
+	background-color:#fffce1;	
+}
+
+a{
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-decoration:none;
+	color:#000;
+	font-size:70px;
+	
+}
+.links{
+	float:left;	
+	padding-top:230px;
+
+	
+}
+
+#home{
+	width:204px;
+	height:71px;
+	display:block;
+	background-image:url(Home_Reg.png);
+}
+
+#home:hover{
+	background:url(Home_Over.png);
+}
+
+#home:active{
+	background:url(Home_Over.png);
+}
+
+#about{
+	width:199px;
+	height:71px;
+	display:block;
+	background-image:url(About_Reg.png);
+}
+
+#about:hover{
+	background:url(About_Over.png);	
+}
+
+#about:active{
+	background:url(About_Over.png);
+}
+
+#charity{
+	width:199px;
+	height:71px;
+	display:block;
+	background-image:url(Charity_Reg.png);	
+}
+
+#charity:hover{
+	background-image:url(Charity_Over.png);
+}
+
+#scores{
+	width:199px;
+	height:71px;
+	display:block;
+	background-image:url(Scores_Reg.png);
+}
+
+#scores:hover{
+	background-image:url(Scores_Over.png);	
+}
+
+#download{
+	width:199px;
+	height:71px;
+	display:block;
+	background-image:url(Download_Reg.png);	
+}
+
+#download:hover{
+	background-image:url(Download_Over.png);	
+}
+
+#black{
+	width:1000px;
+	height:5px;
+	background-color:#000;
+}
+
+#bannersection{
+	background-image:url(banner.jpg);
+	width:1000px;
+	height:300px;
+	
+}
+
+#HomeSection{
+
+	background-image:url(Home.png);	
+	width:1000px;
+	height:1200px;
+	
+}
+
+#HomeText{
+	padding-top:900px;
+	padding-left:100px;
+
+}
+#AboutSection{
+
+	background-image:url(AboutBack.png);	
+	width:1000px;
+	height:1200px;
+	
+}
+
+#ScoresSection{
+	background-image:url(ScoresBack.png);	
+	width:1000px;
+	height:1200px;
+}
+
+#CharitySection{
+
+	background-image:url(CharityBack.png);	
+	width:1000px;
+	height:1200px;
+	float:left;
+}
+#DownloadSection{
+
+	background-image:url(DownloadBack.png);	
+	width:1000px;
+	height:1200px;
+	float:left;
+}
+
+
+
+#DownloadTitle{
+	padding-left:200px;
+	padding-top:30px;
+	float:right;
+}
+#DownloadText2{
+	padding-top:150px;
+	padding-left:100px;
+	
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:70px;
+	color:#0F0;
+	font-style:normal;
+	text-decoration:none;
+}
+#ScoreTitle{
+	padding-left:0px;
+	padding-top:30px;
+	padding-right:500px;
+	float:right;
+}
+#ScoreText2{
+	
+}
+
+p{
+	font-size:18px;
+	text-align:left;
+	
+	
+}
+
+#CharityText2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	padding-top:980px;
+	padding-left:250px;
+	
+}
+
+#flashcontent { 
+	height:480px;
+	width:800px;
+	display:block;
+	margin:0 auto;
+	}
+
+

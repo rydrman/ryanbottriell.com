@@ -1,0 +1,4375 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-color: #FFF;
+    font-family: "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 644px;
+}
+
+a, div, em, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, strong, textarea, table, tbody, tr, td, ul 
+{
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+img
+{
+    border-style: none;
+    border-width: 0;
+}
+
+ol, ul
+{
+    list-style: none;
+}
+
+pre
+{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+hr 
+{
+    height: 1px;
+    color: #f1f1f1;
+}
+
+#signInHeader,
+#page
+{
+    margin: 0 auto;
+    width: 896px;
+}
+
+#page 
+{
+    position:relative;
+    height:auto;
+    min-height:100%;
+    padding: 0 16px;
+}
+
+* html #page 
+{
+    height: 100%;
+}
+
+#content
+{
+    padding-bottom:121px;
+}
+
+#page 
+{
+    position:relative;
+    height:auto;
+}
+
+#railContent
+{
+    float: left;
+    width: 228px;
+}
+
+#mainContent
+{
+    float: right;
+    width: 592px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+/* begin: masthead */
+#masthead
+{
+    margin: 8px 0 21px 0;
+    height: 142px;
+    overflow: hidden;
+}
+
+#globalHeader
+{
+    height: 16px;
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+#globalHeader span
+{
+    color: #d2d2d3;
+    font: 14px/16px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+    margin: 0 8px;
+}
+
+#globalHeader a
+{
+    color: #888;
+    font: 12px/22px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+#navHeader
+{
+    overflow: hidden;
+}
+
+#navHeader > #logo
+{
+    float: left;
+    height: 30px;
+    padding-top: 2px;
+    padding-bottom: 18px;
+}
+
+#navHeader > #search
+{
+    float: right;
+    margin-top: 6px;
+}
+
+#navHeader #searchInput
+{
+    background: #eee;
+    border: 1px solid #eee;
+    padding: 2px 5px;
+    height: 13px;
+    width: 205px;
+    line-height: 11px !important;
+    position: relative;
+    top: -2px;
+}
+
+#navHeader #searchButton
+{
+    margin-bottom: -1px;
+    margin-left: -1px;
+}
+
+#navItems
+{
+    border-bottom: 1px solid #dedede;
+    clear: both;
+    padding-bottom: 11px;
+    overflow: hidden;
+    padding-top: 2px;
+}
+
+#subNavItems
+{
+    margin: 6px 0 0 1px;
+}
+
+#navItems > ul > li,
+#subNavItems > li
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+#navItems > ul
+{
+    float: left;
+}
+
+#signin,
+#signout
+{
+    border: 1px solid transparent;
+    float: right;
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+
+#signin
+{
+    margin-right: -1px;
+}
+
+#signin a 
+{
+    float: left;
+    background: #fff url('/images/Sign_In_Arrow.png') no-repeat right 5px;
+    padding-right: 20px;
+    font-size: 11px !important;
+}
+
+#signin a:hover,
+#signin a:active  
+{
+    color: #333;
+}
+
+#signout
+{
+    float: right;
+    margin-right: 2px;
+}
+
+#signout > a
+{
+    float: left;
+    background: #fff url('/images/down_triangle.png') no-repeat right 11px;
+    padding-right: 16px;
+    white-space: nowrap;
+}
+
+#signout ul
+{
+    display: none;
+    margin-top: 8px;
+    margin-left: -1px;
+}
+
+#signout.visible
+{
+    background-color: #fff;
+    border: 1px solid #ededed;
+    position: absolute;
+    padding: 2px 5px 6px 8px;
+    margin: 0 0 0 -8px;
+}
+
+#signout.visible ul
+{
+    display: block;
+    clear: both;
+}
+
+#signout.visible ul a:hover,
+#signout.visible ul a:active
+{
+    color: #000;
+}
+
+/* end: masthead */
+
+/* begin: buttons */
+
+input.primaryAction 
+{    
+    height: 38px; 
+    margin-right: 13px;    
+    border: 0px;
+    text-align: left;    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;         
+}
+
+a.primaryAction 
+{
+    margin-right: 40px;
+}
+
+
+/* end: buttons */
+
+/* begin: footer */
+#footer
+{   
+    bottom: 0; 
+    margin: 0 0 32px;
+    position: absolute;
+    overflow: hidden;
+    width: 896px;
+}
+
+#footer > .siteNav
+{
+    float: left;
+    max-width: 760px;    
+}
+
+#footer > .siteNav > span.separator
+{
+    margin: 0 7px;
+}
+
+#footer > .siteNav > *
+{
+    float: left;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+#footer > .siteNav > span > a
+{
+    margin-left: 6px;
+}
+
+#footer > .logo
+{
+    float: right;
+}
+
+#footer > .logo a
+{
+    display: block;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+#footer > .logo span
+{
+    display: block;
+    vertical-align: top;
+    text-align: right;
+}
+
+#footer #t 
+{    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 1px;
+    height: 1px;    
+}
+
+/* end: footer */
+
+/* begin: mobile */
+#mobileBody
+{
+    margin: 31px 20px 20px 20px;
+}
+
+#mobileBody .wplogo
+{
+    height: 32px;
+    margin-left: 0px;
+    width: 212px;
+}
+
+#mobileContent
+{
+    margin-top: 31px;
+}
+
+#mobileContent h1
+{
+    font: 48px/48px "Segoe WP Semilight","Segoe UI Semilight",Helvetica,Arial, Sans-Serif;
+    color: #333333;
+}
+
+/* end: mobile */
+
+/* Style A */
+/*
+#navHeader > ul > li, 
+#navHeader > ul > li a
+{
+    color: #666;
+    font: 13px/17px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+*/
+
+/* Style B */
+#globalHeader,
+#navHeader #searchInput,
+#landing > #featured .multiApps .publisher,
+.fullPanel p,
+.fullPanel a,
+#page.account #personalInfo label,
+#page.account th,
+#page.account #purchases a.category,
+#page.account #personalInfo a,
+#page.macAddress #captchaOptions a,
+.popup #disclaimerText
+{
+    color: #666;
+    font: 11px/16px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;  
+    margin-top:2px;  
+}
+
+
+/* Style C */
+h1
+{
+    color: #333;
+    font: 36px/42px "Segoe WPC Light","Segoe UI Light",Helvetica,Arial,Sans-Serif;    
+}
+
+/* Style D */
+h2,
+#landing a.allTarget
+{
+    color: #333;
+    font: 28px/36px "Segoe WPC Light","Segoe UI Light",Helvetica,Arial,Sans-Serif;
+}
+
+/* Style E */
+#navItems > ul > li, 
+#navItems > ul > li a,
+#application > #category,
+#application > #category > a, 
+#landing > #featured .heroeditorial h6,
+#landing > #featured .multiApps > a,
+#landing > #featured .singleApp .publisher,
+#landing > #featured .singleApp .publisher a,
+#mobileError > #mobileWelcome,
+.purchase .price,
+#page.find #BingMap .overlay .head,
+#page.find #FindActions ul li a,
+.purchase #progress > p,
+#manageCreditCardsContent #loadingProgressBar > p,
+.purchase #loadingProgressBar > p,
+#signInBody #signInDescription h3,
+#signInBody #signInDescription li,
+.purchase .price,
+#photos h3 a,
+#page.account h4,
+#page.account #purchases a.title,
+#page.nophone #set1 a,
+#page.macAddress form label,
+#relatedAppsHeader,
+#photos > div.oobe > h4
+{
+    color: #333;
+    font: 18px/24px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+#photos > div.oobe > h4,
+#landing > #featured .heroeditorial h6
+{
+    color: #fff;
+}
+
+/* Style F */
+ul#subNavItems > li, 
+ul#subNavItems > li a,
+table.apps .price,
+.purchase #confirmationText,
+.purchase #downloadTooBigWarning,
+#errorContent p, 
+#landing ul.apps .price,
+#appDetails pre,
+#appDetails textarea,
+#appDetails #reviews p,
+#searchResults #searchInput,
+.searchSuggestions li,
+.searchSuggestions li a,
+#appSummary > .attribute,
+#appSummary > .attribute > a,
+#appSummary > #licenseOptions > p,
+#rating > span,
+#smokeTests p,
+#landing > #editorial p,
+#landing > #editorial div > a,
+#PhoneCardInfo li.general,
+#PhoneCardInfo li.general a,
+#LocationInfo li.general,
+#LocationInfo li.general a,
+#page.find #LocationFind a,
+#page.find #LocationFind.disabled a,
+.purchase div,
+#page.find #BingMap .overlay .body,
+#page.find #BingMap .overlay #smsSetup label,
+#page.find #BingMap .overlay #smsSetup #disclaimerText,
+#signInBody #signInDescription p,
+#LocationInfo li.general a,
+#page.recent #xbox .gamerTag,
+#page.recent #xbox .member .name,
+#page.recent #office p,
+#page.recent #photos > .oobe > a,
+#page.recent #xbox > .oobe > p,
+#page.recent #xbox > .oobe > a.create,
+#page.account #personalInfo div,
+#page.account #purchases td,
+#page.account #purchases td.action a,
+#page.account #billingInfo a,
+.popup > p,
+.popup > ul > li,
+#page.nophone div.container a,
+#page.nophone div.container span,
+#page.nophone div.container p,
+#StaticMapLabel,
+#page.macAddress p,
+.popup label,
+.popup label#dialingCode,
+#page.find #LockEmail .error,
+#page.recent #targeted a,
+#page.recent #targeted p,
+div#SmsFormOverlay #smsSetup .phoneNumberValidationError
+{
+    color: #666;
+    font: 14px/19px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+#photos > div.oobe > a
+{
+    color: #fff;
+}
+
+#page.nophone div.container span a
+{
+    color: #888;
+    text-decoration: underline;
+}
+
+/* Style G */
+#appDetails #reviews span,
+#footer > div > *,
+#signin a,
+#signout a,
+#macAddressForm li,
+#smsSetup .phoneNumberValidationError,
+.purchase .deviceSetup #smsSettings #smsSetup > ul > li > label
+{
+    color: #666;
+    font: 12px/22px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+#footer > div > *
+{
+    color: #888;
+}
+
+/* Style H */
+#categoryApps ul.filters,
+#categoryApps ul.filters a,
+#categoryApps > ul.categories,
+#categoryApps > ul.categories a,
+#categoryApps > div.appSet > span,
+#categoryApps > div.appSet > span,
+#appRelatedApps > div.appSet > span,
+#appRelatedApps > div.appSet > span a,
+#searchResults > span,
+#publisherApps > span,
+#appDetails > #appRelatedApps > span,
+#publisherApps > div.appSet > span,
+#appDetails > #appRelatedApps > div.appSet > span
+{
+    color: #333;
+    font: 14px/19px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style I */
+div.paging > a,
+table.apps .title,
+table.apps .title a,
+#landing li.last a,
+#landing .moreApps a,
+#landing ul.appsMenu,
+#landing ul.appsMenu a,
+#landing ul.apps .title, 
+#landing ul.apps .title a, 
+#appSummary > #publisher.attribute,
+#appSummary > #publisher.attribute > a,
+#appSummary > #languages.attribute,
+#landing > #editorial h6,
+#landing > #editorial h6 a,
+#PhoneCardInfo li.name,
+#LocationInfo li.name,
+.fullPanel h4
+{
+    color: #000;
+    font: 14px/19px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style J */
+#smokeTests p.error,
+#errorContent ul > li > a,
+#mobileError ul > li > a,
+#appSummary #licenseOptions > a.error,
+#searchResults #searchSelector li, 
+#searchResults #searchSelector li > a,
+.purchase #capabilitiesHelp,
+#page.macAddress p > a,
+#page.macAddress #refreshCaptchaLink
+{
+    color: #fe5815;
+    font: 14px/22px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+#appSummary #try,
+#appSummary #reinstallTrial
+{
+    color: #e51400;
+}
+
+/* Style K */
+div.paging > span,
+.separator
+{
+    color: #d2d2d2;
+    font: 14px/22px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style R */
+#purchaseSteps > ul > li.current a,
+#purchaseSteps > ul > li > a
+{
+    font: 18px/24px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+    color: #333333;
+}
+
+/* Style S */
+#shotViewer #shotNumber
+{
+    color: #fff;
+    font: 13px/18px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style Z */
+input.submit,
+input.clear
+{
+    color: #e51400;
+    font: 18px/24px "Segoe WPC Light","Segoe UI Light",Helvetica,Arial,Sans-Serif;
+}
+
+/* Style ZB */
+#appDetails #reviews p.ratingOnly,
+#page.account #removePopup #removeError
+{
+    color: #999;
+    font: 14px/19px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style ZC */
+.purchase #email > input,
+#PhoneCardInfo .DeviceFriendlyName,
+#page.find #BingMap .textinput,
+#page.find #BingMap .overlay #smsSetup #region,
+#page.find #BingMap .overlay #smsSetup #PhoneNumber_PhoneNumber,
+#page.macAddress #ViewModel_MacAddress,
+#page.macAddress #ViewModel_UserSolution,
+.popup > input
+{
+    color: #333;
+    font: 12px/15px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style ZD */
+a.primaryAction,
+#macAddressForm #macAddressSubmit,
+input.primaryAction
+{
+    color: #e51400;    
+    font: 28px/32px "Segoe WPC Light","Segoe UI Light",Helvetica,Arial,Sans-Serif;
+}
+
+/* Style ZD secondary */
+input.primaryAction[disabled],
+a.secondaryAction
+{
+    color: #999999;
+    font: 28px/32px "Segoe WPC Light","Segoe UI Light",Helvetica,Arial,Sans-Serif;
+}
+
+/* Style ZF */
+#appSummary .purchase
+{
+    color: #fff;
+    font: 18px/24px "Segoe WPC Light","Segoe UI Light",Helvetica,Arial,Sans-Serif;
+}
+
+/* Style ZH */
+#landing > #featured .multiApps .title
+{
+    color: #fff;
+    font: 14px/16px "Segoe WPC Black","Segoe WP Black",Helvetica,Arial,Sans-Serif;  
+    font-weight: bold;
+}
+
+/* Style ZI */
+.searchSuggestions div,
+table.apps .reviews,
+#landing ul.apps .reviews,
+#appSummary h4,
+#appSummary #languages a,
+#appDetails .ratingNotification
+{
+    color: #999;
+    font: 11px/14px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;   
+}
+
+/* Style ZJ*/
+#PhoneCardInfo .general,
+#devicePicker > h5,
+#devicePicker > h5 > a,
+.purchase .deviceSetup #smsSettings #disclaimerText,
+.purchase .deviceSetup #smsSettings .phoneNumberValidationError
+{
+    color: #999;
+    font: 12px/16px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style ZK */
+.purchase #creditCardInstructions,
+.purchase p.emailValidationError > span,
+.purchase #installationInstructions,
+.purchase #capabilities,
+.confirmPurchase div.details
+{
+    color: #666;
+    font: 14px/19px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;   
+}
+
+/* Style ZL*/
+#LocationSummary li.name,
+#devicePicker li .deviceInfo
+{
+    color: #333;
+    font: 11px/15px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style ZM */
+#signInBody #signInTiles span
+{
+    color: #fff;
+    font: 11px/16px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* Style ZN - Matches Sign-In h1 styles */
+#signInBody h1
+{
+    color: #444;
+    font-family: "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+    font-size: 29pt;
+    letter-spacing: 0.03em;
+}
+
+/* Style ZO */
+#LocationSummary li.general,
+#LocationSummary li.general a,
+#BingCheckinText,
+#BingCheckinText a,
+#page.find #SmsNotifications > p,
+#page.recent #xbox ul > li,
+#page.recent #xbox ul > li > a,
+#page.recent #xbox .member .info,
+#page.recent #photos > a,
+#page.recent #xbox > .oobe > a.learn,
+#page.recent #xbox > .error > p,
+#page.account #updatePhoneNumberLink,
+#page.account #phoneSettings,
+#page.account #personalInfo > li > a,
+#page.recent #hotmail p,
+#page.recent #hotmail a
+{
+    color: #666;
+    font: 11px/16px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+#page.find #SmsNotifications > p.dark
+{
+    color: #000;
+}
+
+#landing > #featured .singleApp .title,
+#landing > #featured .singleApp .title a
+{
+    color: #fff;
+    font: 60px/68px "Segoe WPC Black","Segoe WP Black",Helvetica,Arial,Sans-Serif;   
+    font-weight: bold;
+}
+
+#landing > #featured .multiApps > h6
+{
+    color: #fff;
+    font: 39px/39px "Segoe WPC Black","Segoe WP Black",Helvetica,Arial,Sans-Serif; 
+    font-weight: bold;   
+}
+
+#landing > #featured .heroeditorial .title,
+#landing > #featured .heroeditorial .title a
+{
+    color: #fff;
+    font: 50px/46px "Segoe WPC Black","Segoe WP Black",Helvetica,Arial,Sans-Serif; 
+    font-weight: bold;
+}
+
+/* Style TBD */
+#publisherApps #returnToApp
+{
+    color: #000;
+    font: 14px/22px "Segoe WPC","Segoe UI",Helvetica,Arial,"Arial Unicode MS",Sans-Serif;
+}
+
+/* begin: accents */
+#landing > #featured .heroeditorial .title a:hover,
+#landing > #featured .singleApp .title a:hover,
+#landing > #featured .singleApp .publisher a:hover,
+#landing > #featured .multiApps a.title:hover,
+#landing > #featured .multiApps a.publisher:hover,
+#landing > #featured .multiApps > a:hover
+{
+    color: #ccc;
+}
+
+#appDetails > #appRelatedApps table.apps .title a:hover,
+div.paging a:hover, 
+table.apps .title a:hover,
+#landing ul.appsMenu a:hover,
+#landing ul.appsMenu li.last a:hover,
+#landing ul.appsMenu a.selected,
+#landing a.allTarget:hover,
+#landing .moreApps a:hover,
+#landing ul.apps .title a:hover, 
+#categoryApps ul.categories a:hover, 
+#categoryApps ul.categories a.selected,
+#categoryApps ul.filters a:hover,
+#categoryApps ul.filters a.selected,
+#application > #category > a:hover,
+#appSummary > .attribute > a:hover,
+#appSummary > #publisher.attribute > a:hover,
+#landing > #editorial h6 a:hover,
+#page.marketplace #navItems a.marketplace,
+#page.nophone #navItems a.my,
+#publisherApps table.apps .title a:hover,
+#publisherApps #returnToApp a,
+#searchResults table.apps .title a:hover,
+#searchResults #searchSelector li > a,
+#page.account #subNavItems.my a.account,
+#page.find #subNavItems.my a.find,
+#page.app #subNavItems.marketplace a.app,
+#page.game #subNavItems.marketplace a.game, 
+#navItems > ul a:hover,
+ul#subNavItems > li a:hover,
+#page.nophone #set1 a:hover,
+#page.nophone #set2 a:hover,
+#landing > #editorial div > a:hover,
+#page.macAddress #navItems a.help,
+#globalHeader a:hover,
+#footer > .siteNav a:hover,
+#page.macAddress p > a:hover,
+#page.macAddress #captchaOptions a:hover,
+#page.macAddress #macAddressSubmit,
+#signInBody #signInDescription li a,
+#signInBody #signInDescription li a:hover,
+#appSummary #licenseOptions > a.error,
+.purchase #capabilitiesHelp,
+.searchSuggestions li > a:focus,
+.searchSuggestions li > a:active,
+.searchSuggestions li > a:hover,
+#errorContent ul > li > a,
+#mobileError a
+{
+    color: #e51400;
+}
+
+ul#subNavItems > li, 
+ul#subNavItems > li a,
+#signInBody #signInDescription li a
+{
+    color: #333;
+}
+
+
+#landing ul.appsMenu li.last a
+{
+    color: #888;
+}
+
+/* end: accents */
+
+/* begin: Common.Rating */
+
+.ratingSmall
+{
+	background-image: url('/images/marketplace.png');
+	height: 18px;
+	width: 70px;
+}
+
+.ratingSmall.zeroPtZero { background-position: -70px 0px; }
+.ratingSmall.zeroPtFive { background-position: -56px -18px; }
+.ratingSmall.onePtZero { background-position: -56px 0px; }
+.ratingSmall.onePtFive { background-position: -42px -18px; }
+.ratingSmall.twoPtZero { background-position: -42px 0px; }
+.ratingSmall.twoPtFive { background-position: -28px -18px; }
+.ratingSmall.threePtZero { background-position: -28px 0px; }
+.ratingSmall.threePtFive { background-position: -14px -18px; }
+.ratingSmall.fourPtZero { background-position: -14px 0px; }
+.ratingSmall.fourPtFive { background-position: 0px -18px; }
+.ratingSmall.fivePtZero { background-position: 0px 0px; }
+
+#searchResults .ratingSmall.zeroPtZero { background-position: -70px -0px; }
+#searchResults .ratingSmall.zeroPtFive { background-position: -56px -18px; }
+#searchResults .ratingSmall.onePtZero { background-position: -56px -0px; }
+#searchResults .ratingSmall.onePtFive { background-position: -42px -18px; }
+#searchResults .ratingSmall.twoPtZero { background-position: -42px -0px; }
+#searchResults .ratingSmall.twoPtFive { background-position: -28px -18px; }
+#searchResults .ratingSmall.threePtZero { background-position: -28px -0px; }
+#searchResults .ratingSmall.threePtFive { background-position: -14px -18px; }
+#searchResults .ratingSmall.fourPtZero { background-position: -14px -0px; }
+#searchResults .ratingSmall.fourPtFive { background-position: 0px -18px; }
+#searchResults .ratingSmall.fivePtZero { background-position: 0px -0px; }
+
+.ratingLarge
+{
+    background-image: url('/images/marketplace.png');
+    height: 16px;
+    width: 82px;
+}
+
+.ratingLarge.zeroPtZero { background-position: -85px -78px; }
+.ratingLarge.zeroPtFive { background-position: -68px -98px; }
+.ratingLarge.onePtZero { background-position: -68px -78px; }
+.ratingLarge.onePtFive { background-position: -51px -98px; }
+.ratingLarge.twoPtZero { background-position: -51px -78px; }
+.ratingLarge.twoPtFive { background-position: -34px -98px; }
+.ratingLarge.threePtZero { background-position: -34px -78px; }
+.ratingLarge.threePtFive { background-position: -17px -98px; }
+.ratingLarge.fourPtZero { background-position: -17px -78px; }
+.ratingLarge.fourPtFive { background-position: 0px -98px; }
+.ratingLarge.fivePtZero { background-position: 0px -78px; }
+
+.ratingLarge.active.zeroPtZero { background-position: -85px -121px; }
+.ratingLarge.active.onePtZero { background-position: -68px -121px; }
+.ratingLarge.active.twoPtZero { background-position: -51px -121px; }
+.ratingLarge.active.threePtZero { background-position: -34px -121px; }
+.ratingLarge.active.fourPtZero { background-position: -17px -121px; }
+.ratingLarge.active.fivePtZero { background-position: 0px -121px; }
+
+/* end: Common.Rating */
+
+
+/* begin: Common.Suggestions */
+.searchSuggestions
+{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    display: none;
+    padding: 4px 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.searchSuggestions ul
+{
+    margin-top: 10px;
+}
+
+.searchSuggestions div.recent
+{
+    margin: 10px 5px 0 5px;
+}
+
+.searchSuggestions li
+{
+    margin: 0 0 6px 5px;
+}
+/* end: Common.Suggestions */
+
+/* begin: Common.ExpandCollapse */
+.expcol
+{
+    background-image: url('/images/marketplace.png');
+    background-position: -88px -204px;
+    height: 5px;
+    width: 7px;
+}
+
+.expcol.collapsed { background-position: -88px -204px; }
+/* end: Common.ExpandCollapse */
+
+/* begin: Common.ApplicationSummaryItem */
+table.apps td > div.title,
+table.apps td > div.reviews,
+table.apps td > div.price,
+ul.apps li > div.title,
+ul.apps li > div.reviews,
+ul.apps li > div.price
+{
+    display: block;
+    width: 95px;
+    overflow: hidden;
+}
+
+table.apps td > a,
+table.apps td > a > img,
+#landing ul.apps > li > a, 
+#landing ul.apps > li > a > img
+{
+    background-color: #eee;
+    display: inline-block;
+    height: 95px;
+    width: 95px;
+}
+
+table.apps td > .title
+{
+    max-height: 38px;
+    vertical-align: top;
+}
+
+table.apps td > .title > a
+{
+    vertical-align: top;
+}
+        
+#categoryApps table.apps td > .title,
+#appRelatedApps table.apps td > .title,
+#landing ul.apps > li > .title
+{
+    margin: 1px 0 5px;
+    overflow: hidden;
+}
+
+#categoryApps table.apps td > .title > a,
+#appRelatedApps table.apps td > .title > a,
+#landing ul.apps > li > .title > a
+{
+    float: left;
+    max-height: 38px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#categoryApps table.apps td > .reviews,
+#appRelatedApps table.apps td > .reviews,
+#landing ul.apps > li > .reviews
+{
+    margin: 5px 0 3px;
+}        
+/* end: Common.ApplicationSummaryItem */
+
+/* begin: Common.ListSeparator */
+li.separator
+{
+    border-left: 1px solid #d2d2d2;
+    display: inline-block;
+    margin-top: 3px;
+    height: 14px;
+    width: 1px;
+    vertical-align: top;
+}
+/* end: Common.ListSeparator */
+
+/* begin: Common.Paging */
+div.paging span.separator
+{
+    padding: 0 16px;
+}
+/* end: Common.Paging */
+
+/* begin: Common.DevicePicker */
+#devicePickerWrapper
+{
+    position: relative;
+    top: 8px;
+    left: -8px;
+    min-height: 37px;
+}
+
+#devicePicker
+{
+    border: 1px solid transparent;
+    position: absolute;
+    width: 154px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+#devicePicker.visible
+{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+}
+
+
+#devicePicker.visible > div
+{
+    background-color: #fff;
+    display: block;
+    overflow: hidden;
+    position: static !important;
+    top: 24px;
+}
+
+#devicePicker > h5
+{
+    padding: 6px 0 15px 0;
+}
+
+#devicePicker > h5 > a
+{
+    background: #fff url('/images/down_triangle.png') no-repeat right 7px;
+    padding-left: 8px;
+    padding-right: 15px;
+}
+
+#devicePicker > div
+{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: none;
+}
+
+#devicePicker ul
+{
+    border: solid 1px #fff;
+    padding-bottom: 2px;
+    position: relative;
+    max-height: 280px;
+    width: 154px;
+    overflow: hidden;
+}
+
+#devicePicker.visible.scrollable
+{
+    width: 168px;
+}
+
+#devicePicker.scrollable ul
+{ 
+    margin-bottom: 7px;
+    width: 160px;
+}
+
+#devicePicker.scrollable ul
+{
+    overflow-y: auto;
+}
+
+#devicePicker li
+{
+    min-height: 42px;
+    padding: 5px 4px;
+    margin: 0px 7px 4px 6px;
+    position: relative;
+    overflow: auto;
+}
+
+#devicePicker li.active
+{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#devicePicker li .deviceInfo
+{
+    float: left;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    width: 88px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#devicePicker li .deviceInfo > p
+{
+    color: #f47300;
+    margin-top: 2px;
+}
+
+#devicePicker li > img
+{
+    float: left;
+    width: 24px;
+}
+
+#devicePicker li.disabled .deviceInfo > span
+{
+    color: #999;
+}
+
+#devicePicker li.disabled > img
+{
+    filter: alpha(opacity=30);
+    opacity: .3;
+}
+/* end: Common.DevicePicker */
+
+/* begin: Modal items*/
+.modal
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    display: none;
+    z-index: 203;
+}
+
+.modal > .background
+{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 202;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+#shotViewer
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2000;    
+}
+        
+#shotViewer > .background
+{
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    filter: alpha(opacity=50);
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#shotViewer #closeViewer,
+.popup > a.closePopup
+{
+    background-image: url('/images/marketplace.png');
+    background-position: -100px -202px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    position: absolute;
+}
+
+/* end: Modal items*/
+
+/* begin: Screenshot Viewer */
+#shotViewer > .foreground
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -294px 0 0 -228px;
+    overflow: hidden;
+    width: 456px;
+    height: 588px;
+}
+        
+#shotViewer #shotNumber
+{
+    margin: 0 0 16px;
+    text-align: center;
+}        
+        
+#shotViewer > .foreground > a,
+#shotViewer > .foreground > .shot
+{
+    float: left;
+}
+
+#shotViewer .shot > img
+{
+    background-color: #eee;
+    width: 329px;
+    height: 548px;
+}
+
+#shotViewer #closeViewer
+{
+    top: 0px;
+    right: 24px;
+}
+        
+#shotViewer #previousShot,
+#shotViewer #nextShot
+{
+    cursor: pointer;
+    display: inline-block;
+    background-image: url('/images/marketplace.png');
+    height: 47px;
+    width: 31px;
+    margin: 250px 16px 0;
+}
+        
+#shotViewer #previousShot { background-position: 0px -147px; }
+
+#shotViewer #previousShot:hover,  
+#shotViewer #previousShot:active,
+#shotViewer #previousShot:focus
+{ 
+    background-position: -32px -147px; 
+}
+
+#shotViewer #nextShot { background-position: -105px -147px; }
+
+#shotViewer #nextShot:hover, 
+#shotViewer #nextShot:active,
+#shotViewer #nextShot:focus 
+{ 
+    background-position: -72px -147px; 
+}
+/* end: Screenshot Viewer */
+
+/* begin: error page*/
+
+#page.error #masthead
+{
+    margin-bottom: -14px;
+}
+
+#errorContent
+{
+    width: 440px;
+    min-height: 72px;
+    margin-top: 11px;
+}
+
+.purchase #errorContent
+{
+    margin-top: 21px;
+}
+
+#errorContent > p
+{
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+#errorContent #actionLink,
+#errorContent #actionLinks
+{
+    margin-top:44px;
+}
+
+#errorContent #actionLink
+{
+    padding-bottom: 2px;
+}
+
+#errorContent #actionLinks
+{
+    vertical-align: top;    
+}
+
+/* end: error page */
+
+/* begin: mobile error page*/
+
+#mobileError > p
+{
+    color: #333;
+    font: 24px/32px "Segoe WP Semilight","Segoe UI Semilight",Helvetica,Arial,Sans-serif;
+    margin-bottom: 32px;
+}
+
+#mobileError > #mobileWelcome,
+#mobileError > .mobileDesc
+{
+    margin-top: 18px;
+}
+
+#mobileError > #mobileLink
+{
+    margin-top: -32px;
+}
+
+/* end: mobile error page */
+
+/* begin: Credit Card */
+
+#creditCardSelection 
+{
+    clear: both;
+}
+
+#creditCardSelection iframe 
+{
+    width: 925px;
+    height: 856px;
+}
+
+#manageCreditCardsContent 
+{
+    margin-top: 20px;
+}
+
+#manageCreditCardsContent #loadingProgressBar p 
+{
+    margin-top: 20px;
+}
+
+.purchase #loadingProgressBar p  
+{
+    margin-top: 20px;
+}
+
+/* end: Credit Card */
+
+/* begin: purchase steps */
+
+.purchase #purchaseSteps 
+{  
+    overflow: hidden;        
+    margin-top: 38px;    
+    margin-bottom: 13px;
+}
+
+.purchase #purchaseSteps > ul
+{
+    border-bottom: 1px solid #ccc;
+    height: 35px;
+    margin-top: 44px;   
+    width: 100%;
+}
+
+.purchase #purchaseSteps > ul > li
+{    
+    display: inline;    
+    margin: 0 55px 0 0;
+}
+
+.purchase #purchaseSteps > ul > li a
+{
+    color: #ccc;
+    display: inline-block;
+    padding-bottom: 12px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.purchase #purchaseSteps > ul > li.current a
+{
+    border-bottom: 1px solid #e51400;
+    color: #e51400;
+    padding-bottom: 11px;    
+}
+    
+
+/* end: purchase steps */
+
+/* start: confirm purchase */
+.purchase .confirmPurchase > *
+{
+    width: 440px;
+}
+
+.purchase .process3DSpurchase h1,
+.purchase .confirmPurchase h1 
+{
+    margin-top: 8px;
+    width: auto;
+}
+
+.purchase .confirmPurchase div.details
+{
+    margin-top: 20px;
+}
+
+.purchase .confirmPurchase #purchase 
+{
+    margin-top: 0px;
+}
+
+.purchase .confirmPurchase .emailValidationError
+{
+    margin-top: -7px;
+    display: block;
+}
+
+/* end: confirm purchase */
+
+
+/* start: purchase */
+.purchase #appIcon 
+{
+    margin-top: 17px;
+    width: 120px;
+    height: 120px;
+}
+
+.purchase #railContent 
+{
+    width: 120px;
+}
+
+.purchase #mainContent 
+{
+    width: 746px;
+}
+
+.purchase .price 
+{
+    margin-bottom: 18px;
+    margin-top: 14px;
+}
+
+.purchase #form 
+{
+    padding-top: 45px;
+    clear: both;
+}
+
+.purchase #form a
+{
+    line-height: 38px;
+}
+
+.purchase #installationInstructions 
+{
+    margin-bottom: 4px;
+    margin-top: 19px;
+}
+
+.purchase #email > input
+{    
+    width: 288px;
+    margin-bottom: 10px;   
+    padding: 2px 2px 2px 2px; 
+}
+
+.purchase p.emailValidationError > span
+{
+    margin-top: 0px;
+}
+
+.purchase .confirmation H1
+{
+    margin-top: 8px;
+}
+
+.purchase #confirmationText 
+{
+    margin-top: 17px;
+}
+
+.purchase .confirmation p#moreFromCategory 
+{
+    margin-top: 19px;
+}
+
+.purchase #downloadTooBigWarning 
+{
+    margin-top: 20px;
+}
+
+.purchase #capabilities 
+{
+    overflow: hidden;
+}
+
+.purchase #capabilities > #acceptCapabilitiesCheckbox 
+{
+    float: left;
+    margin-right: 18px;
+}
+
+.purchase #capabilities > #acknowledgementText 
+{
+    float: left;    
+    width: 255px;
+}
+
+.purchase #capabilitiesHelp 
+{
+    float: left;
+}
+
+.purchase #capabilities 
+{
+    margin-top: 18px;
+}
+
+.purchase .confirmation
+{
+    margin-top: 9px;
+    width: 440px;
+}
+
+.purchase .confirmPurchase #progress 
+{
+    display: none;
+}
+
+.purchase #progressBar 
+{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.purchase #selectPhoneText 
+{
+    margin-bottom: 19px;
+}
+
+.purchase input[type=radio] 
+{    
+    margin-top: 18px;
+    margin-right: 18px;
+}
+
+.purchase .confirmation a,
+.purchase #creditCardInstructions a,
+.purchase #downloadOptionsLearnMore a 
+{
+    color: #e51400;
+}
+
+.purchase .deviceSetup #instructions,
+.purchase .deviceSetup #smsSettings
+{
+    width: 440px;
+}
+
+.purchase .deviceSetup #smsSettings #smsSetup > ul > li > label 
+{
+    width: 86px;
+    margin-top: -2px;
+    margin-right: 8px;
+}
+
+.purchase .deviceSetup #smsSettings #region
+{
+    width: 127px;
+}
+
+.purchase .deviceSetup #smsSettings #PhoneNumber_PhoneNumber
+{
+    width: 123px;
+}
+
+.purchase .deviceSetup #smsSettings .phoneNumberValidationError
+{
+    margin-left: 94px;
+    color: #f47300;
+}
+
+.purchase .deviceSetup #smsSettings #disclaimerText
+{
+    width: 385px;
+    padding-left: 17px;
+    color: #666;
+}
+
+.purchase .deviceSetup p#instructions 
+{
+    margin-bottom: 20px;
+}
+
+/* end: purchase */
+
+/* start: purchase SelectDevice step*/
+
+.selectDevice h1
+{
+    margin-top: 8px;
+}    
+
+.selectDevice #MakeModel,
+.selectDevice #PhoneNumber
+{
+    margin-top: -3px;
+}    
+
+.selectDevice #deliveryMethodQuestionText 
+{
+    padding-bottom: 19px;
+}
+
+.selectDevice #downloadOptionsLearnMore 
+{
+    clear: both;
+}
+
+.selectDevice #downloadOptions
+{
+    clear: left;
+    width: 440px;
+}
+
+.selectDevice div#downloadOptions
+{
+    padding-top: 42px;
+}
+
+.selectDevice #downloadOptions > input 
+{
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    vertical-align: top;  
+    clear: left;
+    margin: 0 22px 0 0 !important;
+}
+
+.selectDevice #downloadOptions > label 
+{
+    display: block;
+    float: left;
+    width: 402px;
+    padding-bottom: 19px;
+}
+
+/* end: purchase SelectDevice step*/
+
+/* start: purchase SelectPayment step */
+
+.purchase .selectPayment h1 
+{
+    margin-top: 8px;
+}
+
+/* end: purchase SelectPayment step */
+
+/* start: sign in page */
+
+#signInHeader 
+{
+    height: 123px;    
+}
+
+#signInHeader #logo 
+{
+    padding-top: 36px;
+    padding-left: 20px;
+}
+
+#signInBody 
+{
+    width: 475px;
+}
+
+#signInBody h1 
+{    
+    margin: 5px 0 10px 0;
+}
+
+#signInBody #signInTiles
+{
+    background: url('/images/wp_marketplace_signin_tokens.png') top left no-repeat;
+    float: left;
+    height: 206px;
+    margin-top: 42px;
+    position: relative;
+    width: 206px;
+    overflow: hidden;
+}
+
+#signInBody #signInTiles span
+{
+    position: absolute;
+}
+
+#signInBody #signInTiles #marketplaceTile
+{
+    top: 81px;
+    left: 5px;
+    width: 96px;
+}
+
+#signInBody #signInTiles #findPhoneTile
+{
+    top: 81px;
+    left: 110px;
+    width: 96px;
+}
+
+#signInBody #signInTiles #picturesTile
+{
+    top: 187px;
+    left: 5px;
+    width: 201px;
+}
+
+#signInBody #signInTiles #marketplaceTile,
+#signInBody #signInTiles #findPhoneTile,
+#signInBody #signInTiles #picturesTile
+{
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+}
+    
+#signInBody #signInDescription
+{
+    float: left;
+    margin: 35px 0 0 20px;
+    width: 248px;
+}
+
+#signInBody #signInDescription h3,
+#signInBody #signInDescription p
+{
+    margin-bottom: 18px;
+}
+
+#signInBody #signInDescription ul
+{
+    margin-top: -3px;
+}
+
+#signInBody #signInDescription ul li
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+/* end: sign in page */
+
+/* begin: Landing Page */
+#page.marketplace #masthead
+{
+    margin: 8px 0 17px 0;
+    height: 146px;
+    overflow: hidden;
+}
+
+#landing
+{
+    overflow: hidden;
+}
+        
+#landing > #featured
+{
+    height: 240px;
+    margin: 23px 0 44px;
+    position: relative;
+}
+        
+#landing > #apps,
+#landing > #games
+{
+    height: 354px;
+    width: 424px;
+    overflow: hidden;
+    position: relative;
+}
+
+#landing > #apps > .appsBox,
+#landing > #games > .appsBox
+{
+    height: 212px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#landing > #apps > div.moreApps,
+#landing > #games > div.moreApps
+{
+    border-top: 1px solid #dedede;
+    bottom: 0px;
+    height: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-top: 10px;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+}
+
+#landing > #apps ul,
+#landing > #games ul
+{
+    overflow: hidden;
+}
+
+#landing > #apps 
+{
+    float: left;
+}
+
+#landing > #games 
+{
+    float: right;
+}
+
+#landing .appsBox > ul,
+#landing .moreApps > a
+{
+    color: #888;
+    display: none;
+}
+
+#landing .appsBox > ul:first-child
+{
+    display: block;
+}
+
+#landing .moreApps > a:first-child
+{
+    display: inline;
+}
+        
+#landing > #editorial
+{
+    clear: both;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+#landing > #editorial > div
+{
+    float: left;
+    width: 212px;
+    margin-left: 16px;   
+}
+#landing > #editorial > div:first-child
+{
+    margin-left: 0px;
+}
+
+#landing h1
+{
+    line-height: 40px;
+    margin-top: 3px;
+    margin-bottom: 19px;
+}
+
+#landing h2
+{
+    margin-bottom: 19px;
+}
+
+#landing ul.appsMenu
+{
+    float: left;
+    margin-bottom: 29px;
+    width: 100%;
+}
+
+#landing ul.appsMenu
+{
+    position: relative;
+}
+
+#landing ul.appsMenu > li
+{
+    display: inline;
+    margin-right: 4px;
+}
+
+#landing ul.appsMenu > li.last
+{
+    position: absolute;
+    right: 0px;
+}
+
+#landing ul.appsMenu > li.separator
+{
+    margin-right: 7px;
+}
+
+#landing ul.apps 
+{
+    clear: both;
+}
+
+#landing ul.apps > li
+{
+    display: inline;
+    float: left;
+    margin-left: 14px;
+    width: 95px;
+}
+
+#landing ul.apps > li:first-child
+{
+    margin-left: 0;
+}
+
+/* end: Landing Page */
+
+/* begin: Landing Page Featured*/
+#landing > #featured
+{
+    position: relative;
+    width: 896px;
+    height: 240px;
+    overflow: hidden;
+}
+        
+#landing > #featured > ul
+{
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    right: 11px;
+    width: 93px;
+    z-index: 3;
+}
+
+#landing > #featured > ul > li
+{
+    cursor: pointer;
+    float: left;
+    width: 10px;
+    height: 11px;
+}
+        
+#landing > #featured > ul > li.page
+{
+    background-color: #fff;
+    margin: 0 2px;
+}
+
+#landing > #featured > ul > li.page.current
+{
+    background-color: #e51400;
+}
+
+#landing > #featured > ul > li.prev,
+#landing > #featured > ul > li.next
+{
+    background-image: url('/images/slider_btns.png');
+}
+
+#landing > #featured > ul > li.prev { background-position: 0px 0px; }
+#landing > #featured > ul > li.prev:hover { background-position: -66px 0px; }
+#landing > #featured > ul > li.next { background-position: -12px 0px; }
+#landing > #featured > ul > li.next:hover { background-position: -78px 0px; }
+
+#landing > #featured > #background
+{
+    background-color: #333;
+    height: 240px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 2000px; 
+    z-index: 1;
+}
+
+#landing > #featured > #background img,
+#landing > #featured > #background > div
+{
+    width: 950px;
+}
+
+#landing > #featured > #shadow
+{
+    background-color: #000;
+    filter: alpha(opacity=30);
+    height: 240px;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 896px;
+    z-index: 2;
+}
+
+#landing > #featured > #background > .heroeditorial
+{
+    height: 240px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+#landing > #featured > #background > .apps,
+#landing > #featured > #background > .games
+{
+    height: 240px;
+    left: 950px;
+    top: 0px;
+    position: absolute;
+}
+
+#landing > #featured > #foreground
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 4480px; /* width of 5 panels */
+    z-index: 3;
+}
+        
+#landing > #featured > #foreground > div
+{
+    float: left;
+    height: 240px;
+    width: 896px;
+}
+        
+#landing > #featured .singleApp,
+#landing > #featured .multiApps,
+#landing > #featured .heroeditorial
+{
+    position: relative;
+}
+        
+#landing > #featured .singleApp > a
+{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+#landing > #featured .singleApp > div
+{
+    position: absolute;
+    bottom: 7px;
+    left: 240px;               
+}
+
+#landing > #featured .singleApp .title
+{
+    width: 500px;
+    max-height: 136px;
+    overflow: hidden;
+}
+
+#landing > #featured .singleApp .publisher,
+#landing > #featured .singleApp .publisher a
+{
+    color: #fff;
+    font: 18px/18px "Segoe WPC","Segoe UI",Arial,"Arial Unicode MS",Verdana;
+}
+
+#landing > #featured .singleApp .title a
+{
+    text-transform: uppercase;
+}
+        
+#landing > #featured .singleApp > a.image,
+#landing > #featured .singleApp > a.image > img
+{
+    height: 208px;
+    width: 208px;
+}
+        
+#landing > #featured .multiApps > div
+{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+#landing > #featured .multiApps > a
+{
+    color: #fff;
+    position: absolute;
+    left: 16px;
+    top: 169px;
+}
+
+#landing > #featured .multiApps > h6
+{
+    position: absolute;
+    left: 16px;
+    bottom: 12px;
+    text-transform: uppercase;
+}
+
+#landing > #featured .multiApps .app
+{
+    margin-left: 16px;
+    width: 95px;
+    float: left;
+    overflow: hidden;
+}
+
+#landing > #featured .multiApps .title
+{
+    display: block;
+    margin-top: 14px;
+    max-height: 32px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+#landing > #featured .multiApps .publisher
+{
+    display: block;
+    color: #fff;
+    max-height: 32px;
+    overflow: hidden;
+}
+
+#landing > #featured .multiApps a.image
+{
+    background: #ccc;
+    display: block;
+}
+#landing > #featured .multiApps a.image,
+#landing > #featured .multiApps a.image > img
+{
+    height: 95px;
+    width: 95px;
+}
+
+#landing > #featured .heroeditorial > div
+{
+    height: 240px;
+    margin: 16px;
+    width: 728px;
+}
+
+#landing > #featured .heroeditorial .title
+{
+    display: block;
+    max-height: 150px;
+    overflow: hidden;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-top: -5px;
+    margin-left: -3px;
+}
+
+#landing > #featured .heroeditorial .content
+{
+    overflow: hidden;
+    word-wrap: break-word;
+    max-height: 58px;
+    margin-left: -1px;
+}
+
+
+/* end: Landing Page Featured*/
+
+/* begin: Landing Page Editorial*/
+
+#landing > #editorial h6
+{
+    margin-bottom:2px;
+    margin-top:9px;
+}
+
+#landing > #editorial div > a
+{
+    color: #888;
+    text-decoration: underline;
+}
+
+/* end: Landing Page Editorial*/
+
+/* begin: Category Applications Page */
+#categoryApps
+{
+    overflow: hidden;
+}
+
+#categoryApps > h1 
+{
+    margin-top: 2px;
+}
+        
+#categoryApps > ul.categories
+{
+    float: left;
+    margin-top: 14px;
+    width: 212px;
+}
+        
+#categoryApps > ul.filters
+{
+    float: left;
+    margin: 14px 0 0 92px;
+}
+
+#categoryApps > div.appSet
+{
+    float: left;
+    margin: 31px 0 0 92px;
+    width: 592px;
+}
+        
+#categoryApps > ul.filters > li
+{
+    display: inline;
+    margin-right: 14px;
+}
+
+#categoryApps > ul.categories li
+{
+    margin-bottom: 9px;
+    overflow: hidden;
+}
+        
+#categoryApps ul.subcategories
+{
+    margin: 0 0 14px 10px;
+}
+        
+#categoryApps > div.appSet > .paging
+{
+    text-align: right;
+}
+        
+#categoryApps table.apps,
+#appDetails > #appRelatedApps table.apps
+{
+    table-layout: fixed;
+    width: 621px;
+    margin-left: -29px;
+}
+
+#categoryApps table.apps td,
+#appDetails > #appRelatedApps table.apps td 
+{
+    padding-bottom: 16px;
+    vertical-align: top;
+    padding-left: 29px;
+    height: 201px;
+}
+/* end: Category Applications Page */
+
+/* begin: Application Details Page */
+#application
+{
+    overflow: hidden;
+}
+
+#application #category
+{
+    margin-top: 6px;
+}
+
+#application > h1
+{
+    margin: 6px 0 30px;
+}
+
+#application > #appSummary
+{
+    float: left;
+    width: 228px;
+}
+
+#application > #appDetails
+{
+    float: right;
+    width: 592px;
+}
+
+#appSummary > img
+{
+    background-color: #eee;
+    margin-bottom: 16px;
+    height: 228px;
+    width: 228px;
+}
+
+#appSummary > #rating
+{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#appSummary > #rating > *
+{
+    color: #999;
+    float: left;
+}
+
+#appSummary > #rating > .ratingLarge
+{
+    margin: 4px 8px 0 0;
+}
+
+#appSummary > #licenseOptions 
+{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#appSummary > #licenseOptions > *
+{
+    clear: left;
+    float: left;
+    max-width: 228px;
+}
+
+#appSummary #licenseOptions > a.error 
+{
+    clear: none;
+    margin-top: 20px;
+    margin-bottom: 46px;
+}
+
+#appSummary .purchase
+{
+    background-color: #e51400;
+    padding: 9px 16px;
+    margin-bottom: 20px;
+    min-width: 95px;
+    text-align: center;
+}
+
+#appSummary > #facebook
+{
+    margin-bottom: 19px;
+    /* trick IE < 9 into properly rendering the div (facebook iframe weirdness) */
+    border-bottom: 1px solid transparent;
+}
+
+#appSummary > #twitter
+{
+    margin-bottom: 40px;
+}
+
+#appSummary > #required > #requiredMemory
+{
+    margin-top: 8px;
+}
+
+#appSummary > #required > #requiredMemory > h4 > a
+{
+    color: #888;
+    text-decoration: underline;
+}
+
+#appSummary > h4
+{
+    margin-bottom: 7px;
+}
+
+#appSummary > .attribute
+{
+    margin-bottom: 32px;
+}
+
+#appSummary > .attribute#languages
+{
+    margin-bottom: 32px;
+}
+
+#appSummary > #languages > h4
+{
+    cursor: pointer;
+}
+
+#appSummary > #languages > ul
+{
+    display: none;
+    margin-left: 16px;
+    padding-top: 2px;
+}
+
+#appSummary > #languages li
+{
+    margin-top: 5px;
+}
+
+#appSummary > #languages .expcol
+{
+    display: inline-block;
+    margin: 1px 9px 3px 0px;
+    vertical-align: middle;
+}
+
+#appDetails > h3
+{
+    margin-bottom: 11px;
+}
+
+#appDetails > h3#reviewsHeader
+{
+    margin-bottom: 28px;
+}
+
+#appDetails > pre,
+#appDetails > div
+{
+    margin-bottom: 46px;
+}
+
+#appDetails > div#reviews
+{
+    margin-bottom: 0px;
+}
+
+#smsSetup .phoneNumberValidationError,
+.purchase p.emailValidationError > span,
+#appDetails > #userReviewHeader.error
+{
+    color: #f47300;
+}
+
+#appDetails > #screenshots
+{
+    margin-bottom: 34px;
+    table-layout: fixed;
+    width: 592px;
+}
+
+#appDetails > #screenshots td
+{
+    padding-right: 16px;
+    padding-bottom: 16px;
+    height: 136px;
+    width: 136px;
+}
+
+#appDetails > #screenshots a
+{
+    background-color: #eee;
+    display: block;
+    text-align: center;
+    max-height: 136px;
+    max-width: 136px;
+}
+
+#appDetails > #screenshots img
+{
+    height: 136px;
+	width:82;
+}
+
+#appDetails textarea
+{
+    background-color: #f4f4f4;
+    border: none;
+    height: 62px;
+    width: 576px;
+    margin: 0 0 8px 0;
+    padding: 8px;
+    overflow: auto;
+}
+
+#appDetails #rate div.ratingLarge 
+{
+    cursor: pointer;
+}
+
+#appDetails #review
+{
+    margin-top: 28px;
+}
+
+#appDetails .ratingNotification.notRated
+{
+    visibility: hidden;
+}
+
+#appDetails #review input
+{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 25px;
+    overflow: visible;
+    width: auto;
+}
+
+#appDetails #review input[disabled]
+{
+    color: #888;
+    cursor: default;
+}
+
+#appDetails #review textarea.unrated[disabled]
+{
+    border: 1px solid #f4f4f4;
+    background-color: #fff; 
+}
+
+#appDetails #reviews li
+{
+    position: relative;
+    min-height: 70px;
+    margin-top: 12px;
+}
+
+#appDetails #reviews p
+{
+    margin-left: 152px;
+    overflow: hidden;
+}
+
+#appDetails #reviews .ratingSmall,
+#appDetails #reviews .author,
+#appDetails #reviews .date
+{
+    position: absolute;
+    left: 0;
+    width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#appDetails #reviews .author,
+#appDetails #reviews .date
+{
+    width: 136px;
+}
+
+#appDetails #reviews .ratingSmall
+{
+    top: 3px;
+}
+
+#appDetails #reviews .author
+{
+    top: 17px;
+}
+
+#appDetails #reviews .date
+{
+    top: 34px;
+}
+
+#appDetails #reviews div.paging
+{
+    margin-top: 20px;
+    text-align: right;
+}
+
+#relatedAppsHeader
+{
+    margin-top: 46px;
+}
+
+#appDetails > #appRelatedApps
+{
+    float: left;
+    margin: 23px 0 38px 0px;
+    width: 592px;
+}
+        
+/* end: Application Details Page */
+
+/* begin: Search Page */
+#searchResults h1
+{
+    margin: 2px 0 38px;
+}
+
+#searchResults > #search
+{
+    margin-bottom: 51px;
+}
+
+#searchResults > #search > form
+{
+    margin-bottom: 11px; 
+}
+
+#searchResults  #searchSelector li
+{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+#searchResults #searchInput
+{
+    border: 1px solid #eee;
+    background-color: #eee;
+    letter-spacing: 0px;
+    padding: 4px 8px 2px;
+    height: 19px;
+    width: 241px;
+}
+
+#searchResults #searchButton
+{
+    margin: 0 0 0 5px;
+}
+
+#searchResults table.apps
+{
+    table-layout: fixed;
+    width: 100%;
+    margin-left: -16px;
+}
+
+#searchResults table.apps td
+{
+    padding-bottom: 32px;
+    height: 104px;
+    width: 212px;
+    vertical-align: top;
+    padding-left: 16px;
+}
+
+#searchResults table.apps td > a
+{
+    float: left;
+    margin-right: 16px;
+}
+
+#searchResults table.apps td > div
+{
+    float: left;
+}
+
+#searchResults table.apps td > div.ratingSmall
+{
+    margin: 5px 0 5px;
+}
+
+#searchResults table.apps td > div.reviews
+{
+    margin-bottom: 3px;
+}
+
+#searchResults div.paging
+{
+    text-align: right;
+}
+/* end: Search Page */
+
+/* begin: Publisher Apps Page */
+
+#publisherApps h1
+{
+    margin: 0 0 22px;
+}
+
+#publisherApps table.apps
+{
+    table-layout: fixed;
+    width: 100%;
+}
+
+#publisherApps table.apps td
+{
+    padding-bottom: 22px;
+    height: 104px;
+    width: 212px;
+}
+
+#publisherApps table.apps td > a
+{
+    float: left;
+    margin-right: 16px;
+}
+
+#publisherApps table.apps td > div
+{
+    float: left;
+}
+
+#publisherApps table.apps td > div.ratingSmall
+{
+    margin: 6px 0 5px;
+}
+
+#publisherApps table.apps td > div.reviews
+{
+    margin-bottom: 5px;
+}
+
+#publisherApps table.apps td > div.price
+{
+    margin-bottom: 8px;
+}
+
+#publisherApps div.paging
+{
+    margin-top: -6px;
+    text-align: right;
+}
+
+#publisherApps > #returnToApp
+{
+    margin-bottom: 28px;
+}
+
+/* end: Publisher Apps Page */
+
+/* start: Smoke Page */
+
+#smokeTests 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+
+#smokeTests h3 
+{
+    background-color: #f0f0f0;
+    margin-top: 10px;
+}
+
+#smokeTests .duration 
+{
+    margin-bottom:5px;
+}
+
+/* end: Smoke Page */
+
+/* MyPhone section */
+
+div.account #content > h1,
+#content > h1.myPhoneHeader
+{
+    margin-top: 2px;
+}    
+
+.myPhoneHeader
+{
+    margin-bottom: 32px;
+}
+
+#PhoneCardInfo ul,
+#LocationSummary ul
+{
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+#LastLocation
+{
+    clear: both !important;
+    margin-bottom: 37px;
+    padding-top: 30px;
+}
+
+#StaticMapWithLocation,
+#StaticMapWithoutLocation
+{
+    margin-bottom: 6px;
+}
+
+#StaticMapWithLocation
+{
+    background-position: 0px -4px;
+    height: 71px;
+    width: 212px;
+}
+
+#StaticMapWithoutLocation
+{
+    height: 71px;
+    width: 212px;
+}
+
+#StaticMapLabel
+{
+    color: #fff;
+    margin-left: 13px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+#StaticMapLabelBackground
+{
+    height: 27px;
+    width: 212px;
+    filter: alpha(opacity = 70);
+    opacity: 0.70;
+    position: absolute;
+}
+
+#LocationPinpoint
+{
+    margin-left: 93px;
+    margin-top: 23px;
+    z-index: 1;
+}
+
+/* start: Phone Card */ 
+#PhoneCard
+{    
+    float: left;
+    width: 215px;
+    position: relative;
+    margin-top: 5px;
+    z-index: 10;
+}
+
+#PhoneImage 
+{
+    float: left;
+    width: 51px;
+}
+
+#PhoneCardInfo
+{
+    float: right;
+    width: 143px;
+    overflow: hidden;    
+    margin-top: -5px;
+}
+
+#PhoneCard #devicePickerWrapper
+{
+    float: right;
+    width: 143px;
+    z-index: 11;
+}
+/* end: Phone Card*/
+
+/* start: Location Information */
+#page.find #masthead
+{
+    margin: 8px 0 17px 0;
+    height: 146px;
+    overflow: hidden;
+}
+
+#page.find #LocationAndActions
+{
+    float: left;
+    margin: 0px 16px 0px 92px;
+    width: 288px;
+}
+
+#page.find #LocationTime,
+#page.find #LocationButtons
+{
+    display: none;
+}
+
+/* end: Location Information*/
+
+/* start: Find Actions */
+
+#page.find #FindActions
+{
+    float: left;
+    width: 104px;
+}
+
+#page.find #LockedImage
+{
+    display: none;
+    height: 13px;
+    width: 11px;
+}
+
+/* end: Find Actions */
+
+/* start: Sms Notifications */
+
+#page.find #SmsNotifications
+{
+    display: none;
+    float: right;
+    width: 136px;
+}
+
+#page.find #SmsNotifications > img 
+{
+    margin-right: 6px;
+}
+
+#page.find #SmsNotifications > p
+{
+    width: 112px;
+}
+
+#page.find #SmsNotifications > img,
+#page.find #SmsNotifications > p
+{
+    display: inline-block;
+    float: left;
+}
+
+/* end: Sms Notifications */
+
+/* start: Bing Checkins */
+
+#BingCheckin
+{
+    width: 212px;
+}
+
+#BingCheckinIcon
+{
+    float: left;
+    margin-top: 4px;
+}
+
+#BingCheckinText
+{
+    float: right;
+    width: 183px;
+}
+
+/* end: Bing Checkins*/
+
+/* Bing Map */
+#page.find #BingMap
+{
+    height: 415px;
+    margin: 30px 0px 130px 0px;
+    position: relative;
+    width: 896px;
+}
+
+/* Bing Map loaded states*/
+
+#page.find #BingMap .MicrosoftMap .NavBar
+{
+    width: 100%;
+}
+
+#page.find #BingMap .MicrosoftMap .NavBar_compassContainer
+{
+    left: 100%;
+    margin-left: -162px;
+    position: absolute;
+}
+
+#page.find #BingMap .MicrosoftMap .NavBar_zoomContainer
+{
+    left: 100%;
+    margin-left: -54px;
+    position: absolute;
+}
+
+#page.find #BingMap .MicrosoftMap .NavBar_typeButtonContainer
+{
+   display: none;
+}
+
+/* Overlays */
+#page.find ul li a.disabled, 
+#page.find ul li a.disabled:hover, 
+#page.find ul li a.disabled:visited,
+{
+    color: #999 !important;
+    cursor: default;
+    text-decoration: none;
+}
+
+#page.find #LocationFind
+{
+    display: none;
+    width: 127px;
+    height: 21px;
+    padding: 6px 0px 7px 9px;
+    margin-top: 12px;
+}
+
+#page.find #LocationFind img
+{
+    margin-left: 5px;
+}
+
+#page.find #LocationFind a
+{
+    max-width: 240px;
+}
+
+#page.find #LocationFind #FindArrowImage.ArrowImageWhite
+{
+    background-image: url(/images/Arrow_Sprite.png);
+    background-position: 0px 0px;
+    height: 20px;
+    width:19px;
+    margin: 2px 10px 0px 0px;
+    float: right;
+    clear: none;
+}
+
+#page.find #LocationFind #FindArrowImage.ArrowImageGrey
+{
+    height: 20px;
+    width: 19px;
+    background-image: url(/images/Arrow_Sprite.png);
+    background-position: 0px -19px;
+    margin: 2px 10px 0px 0px;
+    float: right;
+    clear: none;
+}
+
+#page.find #LocationFind.disabled
+{
+    border: 2px solid #DEDEDE;
+    background-color: #fff;
+}
+
+#page.find #LocationFind.disabled a
+{
+    color: #AEAEAE;
+}
+
+#page.find #LocationFind a
+{
+    display: block;
+    float: left;
+    clear: none;
+    color: #fff;
+}
+
+#page.find #BingMap .background
+{
+    display: none;
+    filter: alpha(opacity = 75);
+    position: absolute;
+    opacity: 0.75;
+    width: 100%;
+    z-index: 1;
+}
+
+#page.find #BingMap .overlay
+{
+    display: none;
+    position: absolute;
+    width: 881px;
+    z-index: 2;
+    margin-top: 10px;
+    left: 15px;
+}
+
+#page.find #BingMap .overlay .head,
+#page.find #BingMap .overlay #smsSetup label,
+#page.find #BingMap .overlay #smsSetup #disclaimerText
+{
+    margin-bottom: 13px;
+    color: #fff;
+}
+  
+#page.find #BingMap .overlay .body
+{
+    color: #fff;
+}
+
+#page.find #BingMap .overlay p,
+#page.find #BingMap .overlay #smsSetup
+{
+    width: 425px;
+}
+
+#page.find #BingMap .overlay.small, 
+#page.find #BingMap .background.small
+{
+    height: 48px;
+    top: 367px;
+}
+
+#page.find #BingMap .overlay.medium, 
+#page.find #BingMap .background.medium
+{
+    height: 147px;
+    top: 268px;
+}
+
+#page.find #BingMap .overlay.large, 
+#page.find #BingMap .background.large
+{
+    height: 415px;
+    top: 0;
+}
+
+#page.find #BingMap .overlay.nomap, 
+#page.find #BingMap .background.nomap
+{
+    top: 0px;
+}
+
+#page.find #BingMap #ProgressOverlay > img,
+#page.find #BingMap #SuccessOverlay > img
+{
+    right: 15px;
+    position: absolute;
+}
+
+#page.find #BingMap #ProgressOverlay > img
+{
+    top: 11px;
+}
+
+#page.find #BingMap #SuccessOverlay > img
+{
+    top: 1px;
+}
+
+#page.find #BingMap .checkbox
+{
+    margin: 0px 5px 0px 0px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#page.find #BingMap .buttonContainer
+{
+    bottom: 25px;
+    left: 0px;
+    position: absolute;
+}
+
+#page.find #BingMap .button
+{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    float: left;
+    margin-right: 15px;
+    padding: 3px 15px;
+    overflow: visible;
+    text-align: center;
+    height: 24px;
+}
+
+#page.find #BingMap .textinput,
+div#SmsFormOverlay #PhoneNumber_PhoneNumber 
+{
+    background-color: #fff;
+    border: none;
+    padding: 3px 7px;
+    width: 183px;
+    left: 0px;
+} 
+
+#page.find #BingMap .textareabox
+{
+    height: 59px;
+    margin-top: 20px;
+    overflow: auto;
+    width: 406px;
+}
+
+#page.find #ProgressOverlay
+{
+    margin-top: 0px !important;
+}
+
+#page.find #ProgressText
+{
+    margin-top: 4px;
+}
+
+#page.find #ProgressBar
+{
+    position: absolute;
+    bottom: 10px;
+    background-color: #fff;
+    height: 2px;
+    width: 593px;
+}
+
+#page.find #ProgressBarProgress
+{
+    background-color: #000;
+    height: 2px;
+    width: 0%;
+    z-index: 2;
+}
+
+#page.find #FailureOverlay > #findErrorLearnMore
+{
+    margin-top: 26px;
+}
+
+#page.find #SuccessSupportingText,
+#page.find #FailureSupportingText
+{
+    margin-top: 13px;
+}
+
+#page.find #PendingEmailTextBox
+{
+    margin: 20px 0px 0px 0px;
+    width: 197px;
+}
+
+#page.find .error
+{
+    color: #000;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#page.find #PendingEmailError
+{
+    margin-top: 8px;
+    display: block;
+    font-weight: bold !important;
+}
+
+#page.find #LockPin
+{
+    margin-left: 16px;
+    text-align: center;
+    width: 38px !important;
+    margin-top: 8px;
+}
+
+#page.find #LockPinLabel
+{   
+    display: block;
+    max-width: 273px;
+    float: left;
+    margin-bottom: 13px;
+}
+
+#page.find #LockFormOverlay > div
+{
+    float: left;
+}
+
+#page.find #LockEmail
+{
+    display: none;
+    margin: 0px 30px 0px 25px;
+    width: 395px;
+}
+
+#page.find #FailureSupportingText,
+#page.find #LockEmail #emailAddress,
+#page.find #LockEmail #confirmAddress
+{
+    margin-bottom: 20px;
+}
+
+#page.find #LockEmail #emailDescription
+{
+    margin-bottom: 18px;
+}
+
+#page.find #LockEmail input
+{
+    width: 244px !important;
+}
+
+#page.find #LockEmail .error
+{
+    color: #fff;
+    margin-bottom: -1px;
+    display: block;
+    padding-left: 26px;
+    font-weight: bold;  
+}
+
+#page.find #LockedPin
+{
+    margin-left: 20px;
+}
+
+#page.find #LockMessage
+{
+    position: relative;
+}
+
+#page.find #LockMessageDiv
+{
+    width: 426px;
+}
+
+#page.find #LockMessageCount
+{
+    margin-top: 2px;
+}
+
+#page.find #LockRingCheckbox
+{
+    position: relative;
+    top: -1px;
+}
+
+#page.find #LockedOwnPin,
+#page.find #LockedOurPin,
+#page.find #UnlockedOwnPin,
+#page.find #UnlockedOurPin
+{
+    margin: 21px 0 16px;
+}
+
+#page.find #WipeDescription
+{
+    margin-bottom: 13px;
+}
+
+/* End Find section */
+
+/* Start SMS Setup */
+
+#smsSetup
+{
+    margin-top: 17px;
+}
+
+#smsSetup select
+{
+    font-family: "Arial Unicode MS";
+}
+
+#smsSetup li 
+{
+    margin-top: 8px;
+}
+ 
+#page.find #LockEmail p label,
+#smsSetup li label
+{
+    float: left;
+    width: 122px;
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 0px !important;
+    margin-top: 4px;
+}
+
+#smsSetup #region
+{
+    width: 288px;
+}
+
+div.deviceSetup #smsSetup .phoneNumberValidationError,
+div#SmsFormOverlay #smsSetup .phoneNumberValidationError
+{
+    display: block;
+    height: 32px;
+    margin-left: 137px;
+    margin-top: -5px;
+}
+
+#smsSetup .phoneNumberValidationError *
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 32px;
+}
+
+div#SmsFormOverlay #smsSetup .phoneNumberValidationError
+{
+    color: #fff !important;
+    font-weight: bold !important;
+    padding-bottom: 20px;
+}
+
+#disclaimer 
+{
+    margin-top: 2px;    
+}
+
+div.deviceSetup #disclaimer input#disclaimerCheckbox,
+div#SmsFormOverlay #disclaimer input#disclaimerCheckbox
+{  
+    display: block;
+    float: left;    
+    margin-right: 6px;
+}
+
+div.deviceSetup #disclaimer #disclaimerText,
+div#SmsFormOverlay #disclaimer #disclaimerText
+{
+    float: left;
+    width: 390px;
+}
+
+/* End SMS Setup */
+
+/* Begin MyPhone */
+#page.recent #masthead
+{
+    margin: 8px 0 17px 0;
+    height: 146px;
+    overflow: hidden;
+}
+
+#page.recent .fullPanel
+{
+    width: 596px;
+    position: relative;
+}
+
+#page.recent .fullPanel > div
+{
+    float: left;
+    width: 167px;
+}
+
+#page.recent .halfPanel
+{
+    width: 288px;
+    height: 220px;
+    position: relative;
+}
+
+#page.recent #xbox
+{
+    float: left;
+    margin-right: 16px;
+}
+
+#page.recent #xbox > .logo
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+        
+#page.recent #xbox > .gamerCard,
+#page.recent #xbox > .oobe,
+#page.recent #xbox > .error
+{
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    width: 288px;
+    height: 145px;
+}
+
+#page.recent #xbox > .oobe,
+#page.recent #xbox > .error
+{
+    background-image: url(/images/Xbox_BG.jpg);
+    padding-left: 14px;
+    margin-right: 14px;
+    width: 274px;
+    z-index: 0;
+}
+
+#page.recent #xbox > .oobe > img,
+#page.recent #xbox > .error > img
+{
+    position: absolute;
+    right: 32px;
+    bottom: 9px;
+}
+
+#page.recent #xbox > .oobe > p,
+#page.recent #xbox > .oobe > a,
+#page.recent #xbox > .error > p
+{
+    max-width: 160px;
+}
+
+#page.recent #xbox > .oobe > p,
+#page.recent #xbox > .error > p
+{
+    margin-top: 10px;
+}
+
+#page.recent #xbox > .oobe > a.create
+{
+    margin-top: -1px;
+    display: block;
+}
+
+#page.recent #xbox > .oobe > a.learn
+{
+    margin-top: 8px;
+    float: left;
+}
+
+#page.recent #xbox > .gamerCard
+{
+    background: #ebebeb url('/images/Xbox_BG.jpg') no-repeat;
+}
+        
+#page.recent #xbox > ul
+{
+    position: absolute;
+    bottom: -9px;
+}
+        
+#page.recent #xbox > ul > li
+{
+    display: inline;
+    margin-right: 8px;
+    vertical-align: top;
+}
+        
+#page.recent #xbox > .gamerCard > ul
+{
+    position: absolute;
+    top: 36px;
+    left: 15px;
+}
+        
+#page.recent #xbox > .avatar
+{
+    position: absolute;
+    right: 5px;
+    bottom: 24px;
+    height: 235px;
+    z-index: 2;
+}
+        
+#page.recent #xbox > .shadow
+{
+    position: absolute;
+    right: 23px;
+    bottom: 16px; 
+    z-index: 1;
+}
+        
+#page.recent #xbox .gamerTag
+{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+        
+#page.recent #xbox .member
+{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+
+#page.recent #xbox .score img
+{
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#page.recent #xbox .member .info .level,
+#page.recent #xbox .member .info .score 
+{
+    position: relative;
+    top: 2px;
+}
+
+#page.recent #office
+{
+    float: left;
+}
+
+#page.recent #office > .products
+{
+    background-color: #ebebeb;
+    position: absolute;    
+    top: 51px;
+    left: 0px;
+    width: 285px;
+    height: 145px;
+}
+
+#page.recent #office > .products > p
+{
+    margin: 8px 14px;
+}
+
+#page.recent #office > .products > img
+{
+    position: absolute;
+    left: 14px;
+    bottom: 13px;
+}
+
+#page.recent #hotmail
+{
+    clear: both;
+    border-top: 45px solid transparent;
+    overflow: hidden;
+    position: relative;
+}
+
+#page.recent #hotmail > div
+{
+    margin-top: 17px;
+}
+
+#page.recent #hotmail > div > h4
+{
+    margin-bottom: 8px;
+}
+
+#page.recent #hotmail > div > p
+{
+    margin-bottom: 5px;
+}
+
+#page.recent #hotmail > #contacts,
+#page.recent #hotmail > #calendar,
+#page.recent #targeted > #xboxMembership,
+#page.recent #targeted > #zunePass
+{
+    margin-right: 30px;
+}
+
+#page.recent #hotmail > #contacts > p,
+#page.recent #hotmail > #calendar > p,
+#page.recent #hotmail > #inbox > p
+{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#page.recent #targeted > #xboxMembership > p,
+#page.recent #targeted > #zunePass > p,
+#page.recent #targeted > #zuneClient > p
+{
+    margin-top: -3px;
+    margin-bottom: -2px;
+}
+
+
+#page.recent #targeted
+{
+    border-top: 70px solid transparent;
+}
+
+#page.recent #targeted > div > h4
+{
+    margin-bottom: 3px;
+}
+
+#page.recent #photos 
+{
+    margin-bottom: 40px;
+}
+
+#page.recent #photos > h3
+{
+    margin-bottom: 23px;
+}
+
+#page.recent #photos > div > table
+{
+    table-layout: fixed;
+    width: 100%;
+}
+        
+#page.recent #photos > div
+{
+    margin-bottom: 5px;
+}
+
+#page.recent #photos td
+{
+    vertical-align: top;
+    width: 71px;
+    height: 71px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+                
+#page.recent #photos td a
+{
+    background-color: #ebebeb;
+    display: block;
+    width: 71px;
+    height: 71px;
+}
+
+#page.recent #photos td img 
+{
+    display: block;
+}
+        
+#page.recent #photos a.video
+{
+    position: relative;
+    overflow: hidden;
+}
+        
+#page.recent #photos a.video img.overlay
+{
+    position: absolute;   
+    top: 17px;
+    left: 17px;
+    z-index: 1;
+}
+        
+#page.recent #photos img.thumbnail
+{
+    width: 71px;
+    height: 71px;
+}
+
+#page.recent #photos div.oobe
+{
+    position: relative;
+    overflow: hidden;
+    width: 588px;
+    height: 145px;
+}
+
+#page.recent #photos > div.oobe > div
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    filter: alpha(opacity=75);
+    opacity: .75;
+}
+
+#page.recent #photos > div.oobe > img
+{
+    position: absolute;
+    z-index: 2;
+    left: 8px;
+    bottom: 0px;
+}
+
+#page.recent #photos > div.oobe > h4
+{
+    position: absolute;
+    left: 114px;
+    top: 16px;
+    max-width: 464px;
+    z-index: 2;
+    height: 76px;
+    overflow: hidden;
+}
+
+#page.recent #photos > div.oobe > a
+{
+    color:#ffffff;
+    position: absolute;
+    left: 115px;
+    top: 106px;
+    max-width: 439px;
+    z-index: 2;
+}
+/* End MyPhone */
+
+/* Begin Account */
+#page.account #masthead
+{
+    margin: 8px 0 17px 0;
+    height: 146px;
+    overflow: hidden;
+}
+
+#page.account #user
+{
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+#page.account #user h4
+{
+    margin-bottom: 6px;
+}
+
+#page.account #personalInfo,
+#page.account #billingInfo
+{
+    width: 273px;
+}
+
+#page.account #personalInfo
+{
+    float: left;
+}
+
+#page.account #billingInfo
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 31px;
+}
+
+#page.account #personalInfo li
+{
+    margin-top: 10px;
+}
+
+#page.account #PhoneCardInfo #PhoneNumberSpan
+{
+    display: block;
+}
+
+#page.account #personalInfo #preferredEmail,
+#page.account #PhoneCardInfo #PhoneNumberSpan
+{
+    margin-right: 3px;
+}
+#page.account #updateEmailLink
+{
+    margin-left: 10px;
+}
+
+#page.account #learnZune
+{
+    margin-left: 13px;
+}
+ 
+#page.account #purchases h4
+{
+    margin-bottom: 20px;
+    margin-top:-4px;
+}
+
+#page.account #purchases td
+{
+    border-bottom: 1px solid #ededed;
+    width: 86px;
+    vertical-align: top;
+    padding-top: 14px;
+    padding-right: 15px;
+    padding-bottom: 14px;
+}
+
+#page.account #purchases th
+{
+    text-align: left;
+}
+
+#page.account #purchases td.img
+{
+    width: 40px;
+    padding-right: 15px;
+}
+
+#page.account #purchases td.info
+{
+    overflow: hidden;
+    padding-right: 31px;
+    width: 220px;
+}
+
+#page.account #purchases td.action
+{
+    padding-right: 0;
+}
+
+#page.account #purchases td.img img
+{
+    height: 40px;
+    width: 40px;
+    vertical-align: text-top;    
+}
+
+#page.account #purchases td.info a
+{
+    clear: left;
+    float: left;
+}
+
+#page.account #purchases td.info a.title
+{
+    color: #666;
+    margin-top: -3px;
+    margin-bottom: -1px;
+}
+
+#page.account #purchases td.info a.category
+{
+    white-space: nowrap;
+}
+
+#page.account #phoneSettings
+{
+    clear: both;
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.popup
+{
+    background-color: #fff;
+    display: none;
+    width: 432px;
+    padding: 20px;
+    padding-bottom: 22px;
+    margin-top: -208px;
+}
+
+.popup h1
+{
+    margin-bottom: 22px;
+}
+
+.popup h2
+{
+    margin-top: 2px;
+    clear: both;
+}
+
+.popup #smsSettings #form input.primaryAction[disabled]
+{
+    color: #999999 !important;
+}
+
+.popup h2 a 
+{
+    outline: 0;
+}
+
+.popup p 
+{
+    margin-bottom: 20px;
+}
+
+.popup li 
+{
+    min-height: 20px;
+    padding-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.popup #smsSetup li
+{
+    padding-bottom: 9px;
+}
+
+.popup label 
+{
+    display: inline-block;
+    width: 152px;
+    clear: left;
+}
+
+.popup #smsSetup label
+{
+    text-align: right;
+    margin-right: 9px;
+    width: 136px;
+    float: none;
+}
+
+.popup #confirmEmailInput, .popup #newEmailInput
+{
+    width: 234px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.popup #PhoneNumber_PhoneNumber
+{
+    width: 109px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.popup select#region
+{
+    width: 181px !important;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.popup .closePopup
+{
+    right: -42px;
+    top: -34px;
+}
+
+.popup .error
+{
+    color: #f47300;
+    display: none;
+    margin-bottom: 9px;
+}
+
+.popup #updateEmailError
+{
+    margin-top: -9px;
+}
+
+.popup #disclaimer 
+{
+    margin-top: 0px;  
+    margin-left: 0px;  
+}
+
+.popup #disclaimer input#disclaimerCheckbox
+{  
+    margin-right: 9px;
+    text-align: left;
+    display: block;
+    float: left;
+}
+
+.popup #disclaimer #disclaimerText
+{
+    display: block;
+    float: left;
+    margin-bottom: 16px;
+    width: 400px;
+}
+
+.popup div#form 
+{
+    clear: both;
+}
+
+div#updatePhoneNumberPopup #PhoneNumber_PhoneNumber 
+{
+    padding: 0 7px 3px 7px;
+    width: 183px;
+    left: 0px;
+}  
+
+div#updatePhoneNumberPopup #smsSetup .phoneNumberValidationError
+{
+    display: block;
+    height: 32px;
+    margin-left: 149px;
+    margin-top: -16px;
+}
+
+/* End Account */
+/* Begin No Phone */
+#page.nophone h1
+{
+    margin-bottom: 32px;
+}
+
+#page.nophone div.container
+{
+    overflow: hidden;
+}
+
+#page.nophone #set2
+{
+    margin-top: 56px;
+}
+
+#page.nophone #set1 a
+{
+    display: block;
+    margin-top: 14px;
+}
+
+#page.nophone #set1 p
+{
+    display: block;
+    margin-top: 9px;
+}
+
+#page.nophone #find,
+#page.nophone #photos,
+#page.nophone #xbox,
+#page.nophone #office,
+#page.nophone #purchaseHistory,
+#page.nophone #acquire
+{
+    float: left;
+    width: 284px;
+}
+
+#page.nophone #find,
+#page.nophone #photos,
+#page.nophone #xbox,
+#page.nophone #office
+{
+    margin-right: 20px;
+}
+
+#page.nophone div.container .logo
+{
+    float: left;
+}
+
+#page.nophone div.container .icon
+{
+    float: right;
+}
+
+#page.nophone #xbox p
+{
+    clear: left;
+    padding-top: 18px;
+    width: 167px;
+}
+
+#page.nophone #xbox .icon
+{
+    margin-right: 40px;
+}
+
+#page.nophone #office .icon
+{
+    margin-top: 42px;
+    margin-right: 30px;
+}
+
+#page.nophone #office p
+{
+    clear: left;
+    padding-top: 14px;
+    width: 167px;
+}
+
+#page.nophone #acquire > a.get
+{
+    background-color: #e51400;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 8px 7px 8px 11px;
+}
+
+#page.nophone #acquire > a.get > img
+{
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+#page.nophone #acquire p
+{
+    clear: left;
+    padding-top: 25px;
+}
+
+/* End No Phone */
+
+/* begin: mac address */
+#page.macAddress p > a,
+#page.macAddress #captchaOptions a
+{
+    color: #666;
+}
+#page.macAddress p > a
+{
+    text-decoration: underline;
+}
+
+#page.macAddress #content
+{
+    width: 516px;
+}
+
+#page.macAddress h1
+{
+    margin-top: 30px;
+    margin-bottom: 34px;
+}
+
+#page.macAddress #macAddressForm
+{
+    margin-top: 43px;
+    margin-bottom: 52px;
+    width: 295px;
+}
+
+#page.macAddress #ViewModel_MacAddress,
+#page.macAddress #ViewModel_UserSolution
+{
+    width: 288px;
+    margin-top: 16px;
+    margin-bottom: 1px;   
+    padding: 2px 2px 2px 2px; 
+}
+
+#page.macAddress #ViewModel_UserSolution 
+{
+    margin-top: 15px;
+}    
+
+#page.macAddress #captchaOptions
+{
+    margin-top: 33px;
+}
+
+#page.macAddress .field-validation-error
+{
+    color: #f47300;
+}
+
+#page.macAddress #captchaContainer
+{
+    height: 61px;
+    width: 244px;
+    border: 1px solid #DEDEDE;
+    margin-top:39px;
+    float: left;
+}
+
+#page.macAddress #captchaImage > img
+{
+    margin-top: 6px;
+    margin-left: 9px;
+}
+
+#page.macAddress #captchaAudio img
+{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#page.macAddress #captchaOptions
+{
+    float: right;
+    width: 30px;
+}
+
+#page.macAddress  #macAddressSubmit
+{    
+    height: 38px; 
+    margin-right: 13px; 
+    margin-top: 32px;   
+    border: 0px;
+    text-align: left;    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#page.macAddress #masthead
+{
+    margin-bottom: -5px;
+}
+
+#page.macAddress  #errorContent h1 
+{
+    margin-bottom: -6px;
+}
+
+#page.macAddress .primaryAction
+{
+    color: #1ba1e2;
+}
+
+#page.macAddress  #disclaimer
+{
+    margin-top: 32px;
+    width: 516px;
+}
+
+#page.macAddress  #macAddressSubmit.disabled
+{
+    color: #999999;
+}
+
+#page.macAddress #captchaInput .placeholder
+{
+    color: #999999;
+}
+
+/* end: mac address */
+/* begin: feedback */
+div#feedback
+{
+    height:31px;
+    display:block;
+    background-color:#6bbd46;
+    z-index:1000000;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    padding:7px 16px 0px 16px;
+}
+
+div#feedback li 
+{
+    display: inline;
+}
+
+div#feedback a
+{
+    color:#ffffff;
+}
+
+#feedbackLink 
+{
+    cursor: pointer;
+}
+
+/* end: feedback */

@@ -1,0 +1,9 @@
+{
+    "title": "builderGame",
+    "niceTitle": "Builder Game",
+    "image": null,
+    "color": "#0091c6",
+    "base": "prototypes\/builderGame\/",
+    "description": "",
+    "contentFile": "index.html"
+}

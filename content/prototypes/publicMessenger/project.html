@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/MallMessenger.js"></script>
+    <script type="text/javascript" src="js/Types.js"></script>
+    <script type="text/javascript" src="js/Station.js"></script>
+    <script type="text/javascript" src="js/Connection.js"></script>
+    <script type="text/javascript" src="js/Message.js"></script>
+    
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="onLoad()">
+    <h1>Interactive Installation Prototype</h1>
+    <canvas id="canvas" width="800px" height="600px"></canvas>
+    
+    <div id="station-info">
+        <span class="label">Name: </span>
+            <span class="value" id="station-info-name">name</span><br/>
+        <span class="label">Last Message: </span><br/>
+            <span class="value" id="station-info-msg">none</span><br/>
+        <span class="label">Last Message Sent: </span><br/>
+                <span class="value" id="station-info-sendTime">0</span><br/>
+        <span class="label">Last Message Recieved: </span><br/>
+                    <span class="value" id="station-info-recieveTime">0</span><br/>
+    <br/>
+    
+    
+    <span class="label">Message: </span><br/>
+        <input id="message-input" type="text"/>
+        <br/>
+    
+        <span class="label">Destination: </span><br/>
+        <select id="message-destination">
+            <option value="right">Right</option>
+            <option value="left">Left</option>
+            <option value="middle">Middle</option>
+            <option value="top">Top</option>
+        </select>
+        <br/><br/>
+
+        <button id="message-submit" type="button">Send</button>
+    </div>
+    
+    <div id="images" style="display:none;">
+        <img id="background-image" src="images/backgroundMap.png"/>
+        <img id="overlay-image" src="images/stationsOverlay.png"/>
+    </div>
+</body>
+</html>

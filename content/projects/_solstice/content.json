@@ -1,0 +1,7 @@
+{
+    "type" : "image",
+    "src" : "projects/solstice/proj-image.png",
+    "popup" : "true",
+    "popup-type" : "iframe",
+    "popup-url" : "projects/solstice/Game.swf"
+}

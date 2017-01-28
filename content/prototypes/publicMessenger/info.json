@@ -1,0 +1,9 @@
+{
+    "title": "publicMessenger",
+    "niceTitle": "Public Messenger",
+    "image": null,
+    "color": "#F99",
+    "base": "prototypes\/publicMessenger\/",
+    "description": "Concept for an interactive installation",
+    "contentFile": "index.html"
+}

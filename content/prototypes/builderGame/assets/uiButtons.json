@@ -1,0 +1,37 @@
+{
+    "Edit" : {
+        "Select" : {
+            "sel" : "single",
+            "func" : "selector"
+        },
+        "Path" : {
+            "sel" : "block",
+            "func" : "getPath"
+        }
+    },
+    "Build" : {
+        "Wall" : {
+            "sel" : "rect",
+            "func" : "addWall"
+        },
+        "Foundation": {
+            "sel" : "block",
+            "func" : "addFoundation",
+            "layer" : "util"
+        },
+        "Roof" : {
+            "sel" : "block",
+            "func" : "addWall"
+        },
+        "Remove" : {
+            "sel" : "block",
+            "func" : "removeObj"
+        }
+    },
+    "Buy" : {
+        "Door" : {
+            "func" : "addObj",
+            "params" : ["door", 0]
+        }
+    }
+}

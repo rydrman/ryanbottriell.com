@@ -1,0 +1,10 @@
+{
+    "title": "facialAnimation",
+    "niceTitle": "Facial Animation",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "content\/projects\/facialAnimation\/",
+    "description": "Various 3D facial animations that I have done using Autodesk Maya.",
+    "contentFile": "index.html",
+    "tags": ["modelling & animation"]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "interactiveMap",
+    "niceTitle": "Interactive Map",
+    "image": "image.png",
+    "color": "#0091c6",
+    "base": "content\/projects\/interactiveMap\/",
+    "description": "Studio map for Bardel Entertaiment to enable easy navigation around their studios.",
+    "contentFile": "index.html",
+    "tags": ["web development", "other development"]
+}
