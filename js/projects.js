@@ -123,7 +123,7 @@ function filterClick( e )
     
     $(".filled").removeClass("filled");
     
-    if( i == -1)
+    if( i == -1 )
     {
         filters = [e.data];
         $($(e.currentTarget).children()[0]).addClass("filled");

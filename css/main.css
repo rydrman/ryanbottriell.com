@@ -88,7 +88,7 @@ body{
     cursor: pointer;
 }
 .button:hover{
-    background-color: rgba(95, 200, 232, 0.1);
+    background-color: rgba(0, 161, 188, 0.8);
 }
 
 .outline{
@@ -100,7 +100,7 @@ body{
 }
 
 .filled{
-    background-color: rgba(255, 234, 240, 0.1);
+    background-color: #00a1bc;
 }
 
 .animated{
