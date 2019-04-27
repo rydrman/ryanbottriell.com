@@ -2,6 +2,8 @@ baseURL = "http://ryanbottriell.com/"
 languageCode = "en-us"
 title = "Ryan Bottriell"
 pygmentsCodeFences = true
+summaryLength = 50
+googleAnalytics = "UA-139193311-1"
 
 [params]
   greeting = "Hello."
