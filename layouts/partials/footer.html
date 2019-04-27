@@ -1,0 +1,11 @@
+<div id="footer">
+    <hr />
+    <br />
+    <div class='contact-wrapper'>
+        {{ range $social := .Site.Params.social}}
+        <a class="{{ $social.icon }} no-link social-media" href='{{ $social.url }}' title="{{ $social.title }}"
+            target='_blank'>
+        </a>
+        {{ end }}
+    </div>
+</div>

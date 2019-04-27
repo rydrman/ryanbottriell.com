@@ -1,0 +1,23 @@
+baseURL = "http://ryanbottriell.com/"
+languageCode = "en-us"
+title = "Ryan Bottriell"
+pygmentsCodeFences = true
+
+[params]
+  greeting = "Hello."
+  introduction = '''
+    I am a problem solver, and I love to solve problems with code.
+    '''
+
+[[params.social]]
+	title = "email"
+	icon = "fas fa-envelope"
+	url = "mailto:ryanbottriell@live.ca"
+[[params.social]]
+	title = "linkedin"
+	icon = "fab fa-linkedin"
+	url = "http://linkedin.com/in/ryanbottriell"
+[[params.social]]
+	title = "github"
+	icon = "fab fa-github"
+	url = "https://github.com/rydrman"

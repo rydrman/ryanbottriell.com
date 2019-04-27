@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{ partial "links" . }}
+    {{ partial "scripts" .}}
+</head>
+
+<body>
+    {{ partial "header" . }}
+    <div id="content">
+        <div id='projects-wrapper'>
+            {{ range .Pages.ByDate.Reverse }}
+            {{ partial "project-block" . }}
+            {{ end }}
+        </div>
+    </div>
+    {{ partial "footer" . }}
+
+</body>
+
+</html>

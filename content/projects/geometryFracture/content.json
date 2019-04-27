@@ -1,9 +1,0 @@
-{
-    "type": "image",
-    "src": "projects/geometryFracture/proj-image.png",
-    "popup": "false",
-    "popup-type": "code",
-    "popup-files": [
-        "projects/geometryFracture/Geometry-Fracture-Tool.py"
-    ]
-}

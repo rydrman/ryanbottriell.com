@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Ryan Bottriell</title>
+
+    {{ partial "links" . }}
+
+    {{ partial "scripts" . }}
+
+
+</head>
+
+<body onload="onLoad()" onscroll="onScroll()" onresize="onResize();">
+
+    {{ partial "header.html" . }}
+
+    <div id="content">
+
+        <div class='center-floater full-height'>
+            <div class='center-wrapper'>
+                <div id='title-block' class='outline'>
+                    <img id='img-me' src='img/me.png' />
+                    <div id='text-floater'>
+                        <div id='main-greeting'>{{ .Site.Params.greeting }}</div>
+                        <div id='main-purpose'>{{ .Site.Params.Introduction }}</div>
+                        <div class='contact-wrapper'>
+                            {{ range $social := .Site.Params.social}}
+                            <a class="{{ $social.icon }} no-link social-media" href='{{ $social.url }}'
+                                title="{{ $social.title }}" target='_blank'>
+                            </a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <a class='no-link' href='/projects'>
+                    <div id='project-button' class='outline button' onclick="">Projects</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    $("#project-button, #title-block").hide().show();
+    $("#project-button, #title-block").css("top", "0px").css("opacity", 1);
+    $("#project-button").click(function () { changePage('projects') });
+    $("#contact-email").click(function () { window.location = "mailto:ryanbottriell@live.ca" });
+    -->
+
+
+    <!--<div class="center-floater">
+            <div class="center-wrapper" style="background-color: #3c4147;">
+                <div id="quote">
+                    <div style="display: inline-block; width: calc(100% - 125px)">It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to."
+                        <br><span style="font-size: 15px; padding: 15%">- J.R.R. Tolkein, Lord of the Rings</span></div>
+                    <img style="float:right; position:relative; top:-10px;" src="img/tree.png"/>
+                </div>
+            </div>
+        </div>-->
+
+    <!--<div class="center-floater">
+            <div class="center-wrapper" style="background-color: #3c4147;">
+                <div id="quote">
+                    <div style="display: inline-block; width: calc(100% - 125px)">"A society grows when old men plant trees whose shade they know they shall never sit in."
+                        <br><span style="font-size: 15px; padding: 15%">- Greek Proverb</span></div>
+                    <img style="float:right; position:relative; top:-10px;" src="img/tree.png"/>
+                </div>
+            </div>
+        </div>-->
+</body>
+
+</html>

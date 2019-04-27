@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{ partial "links" . }}
+    {{ partial "scripts" .}}
+</head>
+
+<body>
+    {{ partial "header" . }}
+    <div id="content">
+        <div class="content-frame">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </div>
+    </div>
+    {{ partial "footer" . }}
+</body>
+
+</html>

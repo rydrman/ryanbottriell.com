@@ -1,0 +1,20 @@
+.social-media {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.social-media.fa-linkedin {
+    color: #0077B5;
+}
+
+.social-media.fa-facebook {
+    color: #3C5A99;
+}
+
+.social-media.fa-twitter {
+    color: #1da1f2;
+}
+
+.social-media.fa-youtube {
+    color: #ff0000;
+}
