@@ -1,8 +1,8 @@
-#projects-wrapper{
+#projects-wrapper, #posts-wrapper{
     left:calc(50% - 350px);
 }
 
-.content-block{
+.block{
     display: block;
     position: relative;
     top: -5px;
@@ -17,7 +17,7 @@
 
     transition: opacity 0.5s, top 0.5s, background-color 0.5s;
 }
-.content-block:hover{
+.block:hover{
     background-color: rgba(95, 200, 232, 0.1);
 }
 
@@ -40,6 +40,12 @@
     border-bottom: 1px solid #DDD;
     color: #00a1bc;
     padding-bottom: 10px;
+}
+
+.block-subtitle {
+    color: #76b2b9;
+    position: relative;
+    display: inline;
 }
 
 .block-description{

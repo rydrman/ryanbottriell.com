@@ -207,7 +207,7 @@ var ContentBlock = function (json) {
 
     this.jTitleDOM.addClass("block-title");
     this.jDescDOM.addClass("block-description");
-    this.jDOM.addClass("content-block");
+    this.jDOM.addClass("block");
     this.jDOM.addClass("outline");
     this.jWrapDOM.addClass("block-content");
     var src = (json.image != null) ? json.base + json.image : "img/default.png";

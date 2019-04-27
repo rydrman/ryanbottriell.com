@@ -9,9 +9,9 @@
 <body>
     {{ partial "header" . }}
     <div id="content">
-        <div id='projects-wrapper'>
+        <div id='posts-wrapper'>
             {{ range .Pages.ByDate.Reverse }}
-            {{ partial "project-block" . }}
+            {{ .Render "block" }}
             {{ end }}
         </div>
     </div>
