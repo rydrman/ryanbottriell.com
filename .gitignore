@@ -2,5 +2,6 @@ logs
 *.log
 build
 
-#sublime
+# editors
 *.sublime-*
+.vscode/
