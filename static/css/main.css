@@ -121,3 +121,10 @@ hr{
     padding: 5px;
     overflow-y: scroll;
 }
+
+blockquote {
+    font-style: italic;
+    font-size: 120%;
+    color: rgba(32, 32, 32, 0.6);
+    border-left: 2px solid rgba(32, 32, 32, 0.6)
+}
