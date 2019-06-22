@@ -14,6 +14,8 @@
 
 <body onload="onLoad()" onscroll="onScroll()" onresize="onResize();">
 
+    <canvas id="background"></canvas>
+
     {{ partial "header.html" . }}
 
     <div id="content">
@@ -41,33 +43,8 @@
         </div>
     </div>
 
-    <!--
-    $("#project-button, #title-block").hide().show();
-    $("#project-button, #title-block").css("top", "0px").css("opacity", 1);
-    $("#project-button").click(function () { changePage('projects') });
-    $("#contact-email").click(function () { window.location = "mailto:ryanbottriell@live.ca" });
-    -->
+    <script type="text/javascript" src="/js/main-background.js"></script>
 
-
-    <!--<div class="center-floater">
-            <div class="center-wrapper" style="background-color: #3c4147;">
-                <div id="quote">
-                    <div style="display: inline-block; width: calc(100% - 125px)">It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to."
-                        <br><span style="font-size: 15px; padding: 15%">- J.R.R. Tolkein, Lord of the Rings</span></div>
-                    <img style="float:right; position:relative; top:-10px;" src="img/tree.png"/>
-                </div>
-            </div>
-        </div>-->
-
-    <!--<div class="center-floater">
-            <div class="center-wrapper" style="background-color: #3c4147;">
-                <div id="quote">
-                    <div style="display: inline-block; width: calc(100% - 125px)">"A society grows when old men plant trees whose shade they know they shall never sit in."
-                        <br><span style="font-size: 15px; padding: 15%">- Greek Proverb</span></div>
-                    <img style="float:right; position:relative; top:-10px;" src="img/tree.png"/>
-                </div>
-            </div>
-        </div>-->
 </body>
 
 </html>

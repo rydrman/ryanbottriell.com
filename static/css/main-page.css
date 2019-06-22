@@ -5,9 +5,9 @@
     position:relative;
 
     top: -10px;
-    /* opacity: 0; */
     transition: opacity 0.5s, top 0.5s;
 
+    background-color: rgba(255, 255, 255, 0.6);
     margin-top:75px;
 }
 
@@ -72,6 +72,14 @@
     position: relative;
 
     top: -10px;
-    /*opacity: 0;*/
     transition: opacity 0.5s, top 0.5s;
+}
+
+#background {
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
 }
